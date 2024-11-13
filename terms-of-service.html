@@ -1,0 +1,1480 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Morslayzin | Podmínky služby</title>
+    <meta property="og:title" content="Morslayzin | Podmínky služby" />
+    <meta property="og:image" content="web-logo.svg" />
+    
+    <meta property="og:description" content="Morslayzin | Podmínky služby" />
+    <meta name="description" content="Morslayzin | Podmínky služby" />
+    <link rel="shortcut icon" href="web-logo.svg" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="assets/css/style.css"
+    />
+
+    <script src="assets/js/script.js"></script>
+
+
+    
+
+    <style>
+          body{
+            direction: ltr;
+            font-family: 'Ubuntu Condensed', sans-serif !important;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            letter-spacing: 1px;
+            line-height: 1.3;
+            position: relative;
+          }
+
+          :root{
+            --white: #fff;
+            --black: #080101;
+            --ch-1: #31af36;
+            --ch-2: #647f1b;
+            --ch-3: #31af6e;
+            --ch-4: #3198af;
+            --ch-5: #31adaf;
+            --hover: var(--ch-1);
+            --transition: 0.3s linear;
+            --box-color: #eff0ef;                                   --primary: #91d4a1;
+            --secondary: rgb(139, 194, 230);
+            --l-1: #afde92e0;
+            --l-2: #a9de92e0;
+            --l-3: #92dea4e0;
+            --l-4: #92c0dee0;
+            --l-5: #92d4dee0;
+            --third: var(--l-1);
+          }
+
+          button{
+            cursor: pointer;
+          }
+
+          a{
+              text-decoration: none;
+          }
+
+          p {
+            margin-bottom: 1rem;
+            font-size: 1rem;
+            line-height: 1.5;
+          }
+
+          ul, ol {
+            margin-bottom: 1rem;
+            padding-left: 2rem;
+          }
+
+          li {
+            margin-bottom: 0.5rem;
+          }
+
+          ul ul, ol ul, ul ol, ol ol {
+            margin-bottom: 0;
+          }
+
+          img{
+            width: 100%;
+            display: block;
+            box-sizing: border-box;
+          }
+
+          h5{
+            font-size: inherit;
+          }
+
+          .container {
+            max-width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+            padding-right: 15px;
+            padding-left: 15px;
+          }
+
+          .logo-box{
+            display: flex;
+            flex-direction: row;
+            gap: 4px;
+            align-items: center;
+            justify-content: center;
+          }
+
+          .logo-img{
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img{
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
+          }
+
+          #particles-js{
+            position: absolute;
+            z-index: 0;
+          }
+
+          .nav{
+            position: relative;
+            z-index: 1;
+            padding: 13px 0;
+          }
+
+          .nav-box{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+          }
+
+          .navbar-toggler {
+            background: none;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
+            transition: var(--transition);
+
+            &:hover,
+            &:focus{
+              color: var(--hover);
+            }
+
+            svg{
+              width: 30px;
+              height: 30px;
+            }
+          }
+
+          .navbar-nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+          }
+
+          .nav-item{
+            &:hover .nav-link,
+            &:focus .nav-link{
+              color: var(--hover);
+            }
+          }
+
+          .nav-link {
+            text-decoration: none;
+            color: var(--black);
+            transition: var(--transition);
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            padding: 13px 0;
+          }
+          .main-text {
+            color: #fff;
+          }
+          .overlay {
+            height: 100%;
+            width: 100%;
+            max-width: 480px;
+            position: fixed;
+            z-index: 998;
+            top: 0;
+            left: 0;
+            background-color: var(--box-color);
+            border: 1px solid #ccc;
+            overflow-x: hidden;
+            transition: 0.5s;
+            display: none;
+          }
+
+          .btn-close-wr{
+            display: flex;
+            justify-content: end;
+          }
+
+          .btn-close{
+            border: none;
+            outline: none;
+            color: var(--hover);
+            background-color: transparent;
+            transition: var(--transition);
+
+
+            svg{
+              width: 25px;
+              height: 25px;
+            }
+
+            &:hover,
+            &:focus{
+              opacity: 0.7;
+            }
+          }
+
+          .overlay-box{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding:  30px;
+          }
+
+          .logo-title{
+            text-transform: uppercase;
+            font-weight: 900;
+            font-size: 20px;
+            letter-spacing: 1.4px;
+            color: var(--black);
+            transition: var(--transition);
+          }
+
+          .logo-box:hover .logo-title,
+          .logo-box:focus .logo-title{
+            color: var(--hover);
+          }
+
+          .hero-box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap:  22px;
+          }
+
+          .hero{
+            position: relative;
+            z-index: 1;
+          }
+
+          .hero-box{
+            height: 100%;
+          }
+
+          .hero-title{
+            text-align: center;
+            font-weight: 500;
+          }
+
+          .row-2{
+            display: flex;
+            box-sizing: border-box;
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            gap: 18px;
+          }
+
+          .col-2{
+            width: 100%;
+            box-sizing: border-box;
+            padding: 18px;
+          }
+
+          .hero-img{
+            width: 100%;
+            margin: 0 auto;
+            height: 500px;
+
+            img{
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
+          }
+
+          .header{
+            position: relative;
+          }
+
+          .section{
+            padding: 117px 0;
+          }
+
+          .row-3{
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            flex-direction: column-reverse;
+            gap: 18px;
+            padding: 33px 0;
+          }
+
+          .col-3{
+            width: 100%;
+            box-sizing: border-box;
+            padding: 18px;
+         }
+
+          .title{
+            font-weight: 700;
+            font-size: 20px;
+            color: var(--hover);
+            margin-bottom: 22px;
+          }
+
+          .au-box{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: center;
+            gap: 18px;
+          }
+
+          .au-img-box{
+            display: flex;
+            justify-content: center;
+            height: 100%;
+          }
+
+          .au-img{
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+
+            img{
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
+          }
+
+          .au-section{
+            padding-top: 0;
+          }
+
+          .main-section{
+            position: relative;
+            z-index: 1;
+          }
+
+          .main-img{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            img{
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
+
+        .shape {
+          box-sizing: border-box;
+          overflow: hidden;
+          width: 100%;
+          height: 200px;
+          position: relative;
+          margin: 0 auto;
+          border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+          transition: all 1s ease-in-out;
+          z-index: 1;
+
+          &:hover,
+          &:focus{
+            border-radius: 50% 50% 40% 60% / 50% 40% 60% 50%;
+          }
+        }
+
+        .shape-wr{
+          float: none;
+          margin: 0 auto;
+          padding: 18px;
+        }
+
+
+        .pt-0{
+          padding-top: 0;
+        }
+
+        .price{
+          font-size: 20px;
+          color: var(--hover);
+          font-weight: 700;
+        }
+
+        .au{
+          background-image: -webkit-linear-gradient(90deg, var(--third) 0%, white 100%);
+          background-image: linear-gradient(90deg, var(--third) 0%, white 100%);
+        }
+
+        .author-img{
+          position: relative;
+          min-width: 25%;
+          padding: 10px;
+          background-color: var(--third);
+          border-radius: 175px 175px 0px 175px;
+          margin: 0 auto;
+
+          img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 175px 175px 0px 175px;
+          }
+
+          &::before{
+            position: absolute;
+            left: 3%;
+            top: 3%;
+            width: 94%;
+            height: 94%;
+            content: "";
+            border: 1px solid var(--white);
+            border-radius: 175px 175px 0px 175px;
+            background-color: transparent;
+            opacity: 1;
+          }
+        }
+
+        .about-author-box{
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          height: 100%;
+          flex-direction: column;
+          gap:  18px;
+        }
+
+        .author-name{
+          color: var(--hover);
+          font-weight: 700;
+        }
+
+        .author-img-box{
+          position: relative;
+        }
+
+        .related-img{
+          width: 100%;
+          height: 150px;
+          box-sizing: border-box;
+          overflow: hidden;
+
+          img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+          }
+
+          &:hover > img,
+          &:focus > img{
+            transform: scale(1.02);
+          }
+        }
+
+        .related-box{
+          display: flex;
+          flex-direction: column;
+          gap: 18px;
+        }
+
+        .related-title{
+          font-weight: 700;
+          text-align: center;
+        }
+
+        .com-col{
+          box-shadow: 0 0 40px rgba(8, 21, 66, 0.05);
+          background-image: linear-gradient(90deg, var(--third) 0%, white 100%);
+          border-radius: 15px;
+        }
+
+        .comment-box{
+          display: flex;
+          flex-direction: column;
+          gap: 18px;
+          justify-content: space-between;
+          height: 100%;
+        }
+
+        .comment-author-box{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 8px;
+        }
+
+        .comment-av{
+          width: 40px;
+          height: 40px;
+          overflow: hidden;
+          border-radius: 0%;
+          position: relative;
+
+          img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+
+          &::before{
+            position: absolute;
+            left: 3%;
+            top: 3%;
+            width: 90%;
+            height: 90%;
+            content: "";
+            border: 1px solid var(--white);
+            border-radius: 0%;
+            background-color: transparent;
+            opacity: 1;
+        }
+      }
+
+      .contact-list{
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        flex-direction: column-reverse;
+        gap:  18px;
+      }
+
+      .contact-item{
+        word-break: break-all;
+
+        a{
+          color: var(--black);
+          transition: var(--transition);
+        }
+
+        &:hover > a,
+        &:focus > a{
+          color: var(--hover);
+        }
+      }
+
+      .map{
+        width: 100%;
+        height: 300px;
+        border-radius: 15px;
+        overflow: hidden;
+
+        iframe{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .parent {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 4px;
+        grid-row-gap: 4px;
+      }
+
+      .div1 { grid-area: 1 / 1 / 2 / 2;
+        height: 150px;
+
+        .gallery-img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .div2 {
+        grid-area: 2 / 1 / 4 / 2;
+        height: 300px;
+
+        .gallery-img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .div3 {
+        grid-area: 1 / 2 / 3 / 4;
+        height: 300px;
+
+        .gallery-img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .div4 {
+        grid-area: 3 / 2 / 4 / 4;
+        height: 150px;
+
+        .gallery-img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .div5 {
+        grid-area: 1 / 4 / 2 / 5;
+        height: 150px;
+
+        .gallery-img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .div6 {
+        grid-area: 2 / 4 / 4 / 5;
+        height: 300px;
+
+        .gallery-img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .gallery-img{
+        overflow: hidden;
+
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: var(--transition);
+        }
+
+        &:hover > img,
+        &:focus > img{
+          transform: scale(1.02);
+        }
+      }
+
+      .form{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        height: 100%;
+        justify-content: center;
+        gap: 18px;
+      }
+
+      .input-custom_element_section,
+      .textarea-custom_element_section{
+        width: 100%;
+        padding: 10px 16px;
+        border: 1px solid var(--third);
+        border-radius: 15px;
+        box-sizing: border-box;
+      }
+
+      .video-box{
+        box-sizing: border-box;
+        overflow: hidden;
+        width: 100%;
+        height: 200px;
+        position: relative;
+        margin: 0 auto;
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        transition: all 1s ease-in-out;
+        z-index: 1;
+
+        &:hover,
+        &:focus{
+          border-radius: 50% 50% 40% 60% / 50% 40% 60% 50%;
+        }
+      }
+
+      .video-player{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .privacy{
+        color: var(--black);
+        transition: var(--transition);
+
+        &:hover,
+        &:focus{
+          color: var(--hover);
+        }
+      }
+
+      .footer{
+        background-color: var(--black);
+        color: var(--hover);
+        padding: 33px;
+      }
+
+      .footer-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 18px;
+      }
+
+      .footer-link{
+        text-align: center;
+
+        a{
+          color: var(--white);
+          transition: var(--transition);
+          text-align: center;
+        }
+
+        &:hover > a,
+        &:focus > a{
+          color: var(--hover);
+        }
+      }
+
+      .copyright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 18px;
+        flex-direction: column;
+        color: #ffffffc4;
+        gap: 5px;
+      }
+
+      .privacy-content{
+        word-break: break-all;
+        overflow: hidden;
+      }
+
+        @media (min-width: 420px) {
+          .overlay {
+            width: 420px;
+          }
+        }
+
+        @media (min-width: 576px) {
+          .container {
+            max-width: 540px;
+          }
+
+          .shape {
+            width: 400px;
+            height: 400px;
+          }
+
+          .author-img{
+            width: 400px;
+          }
+
+          .video-box{
+            height: 400px;
+          }
+
+          .copyright{
+            flex-direction: row;
+          }
+        }
+
+        @media (min-width: 768px){
+          .container {
+            max-width: 720px;
+          }
+
+          .row-3,
+          .row-2{
+            flex-direction: row-reverse;
+          }
+
+          .col-2{
+            width: calc(50% - 18px);
+          }
+
+          .col-3{
+            width: calc((100% / 3) - 18px);
+          }
+
+          .shape {
+            width: 500px;
+            height: 500px;
+          }
+
+          .footer-box{
+            flex-direction: row-reverse;
+          }
+
+          .logo-title{
+            font-size: 26px;
+          }
+        }
+
+        @media (max-width: 991px){
+
+        }
+
+        @media (min-width: 992px){
+          .container {
+            max-width: 960px;
+          }
+
+          .shape-wr{
+            float:  right;
+          }
+        }
+
+        @media (min-width: 1200px){
+          .container {
+            max-width: 1140px;
+          }
+
+          .shape {
+            width: 600px;
+            height: 600px;
+          }
+        }
+
+        .button-1 {
+          position: relative;
+          padding: 15px;
+          text-align: center;
+          border-radius: 45px;
+          border: none;
+          background-color: rgb(151, 95, 255);
+          color: white;
+          box-shadow: 0px 10px 10px rgb(210, 187, 253) inset,
+          0px 5px 10px rgba(5, 5, 5, 0.212),
+          0px -10px 10px rgb(124, 54, 255) inset;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .button-1::before {
+          width: 70%;
+          height: 2px;
+          position: absolute;
+          background-color: rgba(250, 250, 250, 0.678);
+          content: "";
+          filter: blur(1px);
+          top: 7px;
+          border-radius: 50%;
+        }
+
+        .button-1::after {
+          width: 70%;
+          height: 2px;
+          position: absolute;
+          background-color: rgba(250, 250, 250, 0.137);
+          content: "";
+          filter: blur(1px);
+          bottom: 7px;
+          border-radius: 50%;
+        }
+
+        .button-1:hover {
+          animation: jello-horizontal 0.9s both;
+        }
+
+        @keyframes jello-horizontal {
+          0% {
+            transform: scale3d(1, 1, 1);
+          }
+
+          30% {
+            transform: scale3d(1.25, 0.75, 1);
+          }
+
+          40% {
+            transform: scale3d(0.75, 1.25, 1);
+          }
+
+          50% {
+            transform: scale3d(1.15, 0.85, 1);
+          }
+
+          65% {
+            transform: scale3d(0.95, 1.05, 1);
+          }
+
+          75% {
+            transform: scale3d(1.05, 0.95, 1);
+          }
+
+          100% {
+            transform: scale3d(1, 1, 1);
+          }
+        }
+
+        .button-2 {
+          padding: 0.6em 1em;
+          border: 4px solid var(--hover);
+          transition: ease-in-out 0.3s;
+          background-color: transparent;
+          color: var(--hover);
+          font-weight: bolder;
+          font-size: 16px;
+          display: inline-block;
+          text-align: center;
+          }
+
+          .button-2:hover {
+          transform: scale(1.02) rotate(5deg);
+          background-color: var(--hover);
+          color: white;
+          }
+
+        .button-3 {
+          --bg: #000;
+          --hover-bg: #ff90e8;
+          --hover-text: #000;
+          color: #fff;
+          cursor: pointer;
+          border: 1px solid var(--bg);
+          border-radius: 4px;
+          padding: 0.8em 2em;
+          background: var(--bg);
+          transition: 0.2s;
+          display: inline-block;
+          text-align: center;
+        }
+
+        .button-3:hover {
+          color: var(--hover-text);
+          transform: translate(-0.25rem, -0.25rem);
+          background: var(--hover-bg);
+          box-shadow: 0.25rem 0.25rem var(--bg);
+        }
+
+        .button-3:active {
+          transform: translate(0);
+          box-shadow: none;
+        }
+
+        .button-4 {
+          padding-left: 33px;
+          padding-right: 33px;
+          padding-bottom: 16px;
+          padding-top: 16px;
+          border-radius: 9px;
+          background: #d5f365;
+          border: none;
+          font-family: inherit;
+          text-align: center;
+          cursor: pointer;
+          transition: 0.4s;
+          color: var(--black);
+          display: inline-block;
+          text-align: center;
+          }
+
+          .button-4:hover {
+          box-shadow: 7px 5px 56px -14px #C3D900;
+          }
+
+          .button-4:active {
+          transform: scale(0.97);
+          box-shadow: 7px 5px 56px -10px #C3D900;
+          }
+
+          .button-5 {
+            width: fit-content;
+            padding: 12px 24px;
+            border-radius: 100px;
+            border: none;
+            box-shadow: inset 0px 22px 20px 10px rgb(0, 0, 0);
+            font-weight: 800;
+            color: rgb(255, 191, 106);
+            letter-spacing: .1rem;
+            transition: all 0.51s ease-in-out;
+            display: inline-block;
+            text-align: center;
+          }
+
+          .button-5:hover {
+            transform: translateY(5px);
+            box-shadow: inset 1px -11px 25px 10px rgb(91, 88, 240);
+          }
+    </style>
+    
+  </head>
+
+  <body>
+    <div class="header">
+      <div id="particles-js"></div>
+
+      <div class="nav">
+        <div class="container">
+          <div class="nav-box">
+            <a href="./" class="logo-box">
+              <div class="logo-img">
+                <img src="web-logo.svg" alt="" />
+              </div>
+              <div class="logo-title">Morslayzin</div>
+            </a>
+            <button class="navbar-toggler" onclick="toggleNav()">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-list"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="overlay" id="overlay">
+        <div class="overlay-box">
+          <div class="btn-close-wr">
+            <button class="btn-close" onclick="closeNav()">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-x-circle"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+                />
+                <path
+                  d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./#section1">O mně</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="./#section2">Zajímavé poznámky</a>
+              </li>
+               
+              <li class="nav-item">
+                <a class="nav-link" href="./#section3">Komentáře</a>
+              </li>
+                 
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero">
+        <div class="container">
+          <div class="row-2">
+            <div class="col-2">
+              <div class="hero-box">
+                <div class="hero-title">Vítejte na našich stránkách! Jsme tak rádi, že jste tady. Naše stránky obsahují nejnovější zprávy a články o řadě témat, které vás budou informovat. Doufáme, že se zde skvěle pobavíte a dostanete se do dobré nálady.</div>
+                
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="hero-img">
+                <img src="media/site_vector_art_2024-10-30_21-210.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+<div class="section">
+    <div class="container">
+        <div class="title">Morslayzin | Podmínky služby</div>
+        <div class="privacy-content"><h3>SOUHLAS S NAŠIMI PRÁVNÍMI PODMÍNKAMI</h3>
+
+<p>Webu Jsme ("Společnost", "my", "nás" nebo "naše") .</p>
+
+<p>Provozujeme webové stránky (dále jen "stránky Webu ") a jakékoli další související produkty a služby, které odkazují na tyto právní podmínky ("právní podmínky") (souhrnně "služby").</p>
+
+<p>__________</p>
+
+<p>Můžete nás kontaktovat e-mailem na adrese  nebo poštou na adrese  .</p>
+
+<p>Tyto právní podmínky představují právně závaznou dohodu uzavřenou mezi vámi, ať už osobně nebo jménem subjektu ("vy"), a týkající se vašeho přístupu ke službám a Webujejich používání. Souhlasíte s tím, že přístupem ke Službám jste si přečetli, porozuměli a souhlasíte s tím, že budete vázáni všemi těmito Právními podmínkami. POKUD SE VŠEMI TĚMITO PRÁVNÍMI PODMÍNKAMI NESOUHLASÍTE, JE VÁM VÝSLOVNĚ ZAKÁZÁNO POUŽÍVAT SLUŽBY A MUSÍTE JE OKAMŽITĚ PŘESTAT POUŽÍVAT.</p>
+
+<p>O všech plánovaných změnách služeb, které používáte, vás budeme předem informovat. Upravené Právní podmínky vstoupí v platnost po zveřejnění nebo upozornění uživatelem , jak je uvedeno v e-mailové zprávě. Pokračováním v používání služeb po datu účinnosti jakýchkoli změn souhlasíte s tím, že budete vázáni upravenými podmínkami.</p>
+
+<p>Doporučujeme, abyste si vytiskli kopii těchto Právních podmínek pro své záznamy.</p>
+
+<h3>OBSAH</h3>
+
+<div style="display: flex; flex-direction: column; gap: 4px;">
+    <a href="#services">1. NAŠE SLUŽBY</a>
+    <a href="#ip">2. PRÁVA DUŠEVNÍHO VLASTNICTVÍ</a>
+    <a href="#userreps">3. UŽIVATELSKÁ REPREZENTACE</a>
+    <a href="#userreg">4. REGISTRACE UŽIVATELE</a>
+    <a href="#products">5. VÝROBKY</a>
+    <a href="#purchases">6. NÁKUPY A PLATBY</a>
+    <a href="#returnyes">7. ZÁSADY VRACENÍ ZBOŽÍ/REFUNDACÍ</a>
+    <a href="#software">8. SOFTWARE</a>
+    <a href="#prohibited">9. ZAKÁZANÉ ČINNOSTI</a>
+    <a href="#ugc">10. PŘÍSPĚVKY VYTVOŘENÉ UŽIVATELI</a>
+    <a href="#license">11. PŘÍSPĚVKOVÁ LICENCE</a>
+    <a href="#reviews">12. POKYNY PRO PŘEZKUMY</a>
+    <a href="#socialmedia">13. SOCIÁLNÍ MÉDIA</a>
+    <a href="#thirdparty">14. WEBOVÉ STRÁNKY A OBSAH TŘETÍCH STRAN</a>
+    <a href="#sitemanage">15. SPRÁVA SLUŽEB</a>
+    <a href="#ppyes">16. ZÁSADY OCHRANY OSOBNÍCH ÚDAJŮ</a>
+    <a href="#dmca">17. OZNÁMENÍ A ZÁSADY ZÁKONA DIGITAL MILLENNIUM COPYRIGHT ACT (DMCA)</a>
+    <a href="#terms">18. DOBA TRVÁNÍ A UKONČENÍ</a>
+    <a href="#modifications">19. ZMĚNY A PŘERUŠENÍ</a>
+    <a href="#law">20. ROZHODNÉ PRÁVO</a>
+    <a href="#disputes">21. ŘEŠENÍ SPORŮ</a>
+    <a href="#corrections">22. OPRAVY</a>
+    <a href="#disclaimer">23. ODMÍTNUTÍ ODPOVĚDNOSTI</a>
+    <a href="#liability">24. OMEZENÍ ODPOVĚDNOSTI</a>
+    <a href="#indemnification">25. ODŠKODNĚNÍ</a>
+    <a href="#userdata">26. UŽIVATELSKÁ DATA</a>
+    <a href="#electronic">27. ELEKTRONICKÁ KOMUNIKACE, TRANSAKCE A PODPISY</a>
+    <a href="#california">28. KALIFORNŠTÍ UŽIVATELÉ A OBYVATELÉ</a>
+    <a href="#misc">29. RŮZNÉ</a>
+    <a href="#contact">30. KONTAKTUJTE NÁS</a>
+</div>
+<br>
+
+<h3 id="services">1. NAŠE SLUŽBY</h3>
+
+<p>Informace poskytované při používání služeb nejsou určeny k distribuci nebo použití jakoukoli osobou nebo subjektem v jakékoli jurisdikci nebo zemi, kde by taková distribuce nebo použití byly v rozporu se zákonem nebo předpisy nebo které by nás podléhaly jakýmkoli registračním požadavkům v rámci takové jurisdikce nebo země. V souladu s tím osoby, které se rozhodnou pro přístup ke službám z jiných míst, tak činí z vlastní iniciativy a nesou výhradní odpovědnost za dodržování místních zákonů, pokud a v rozsahu, v jakém jsou místní zákony použitelné.</p>
+
+<p>Služby nejsou přizpůsobeny tak, aby byly v souladu s oborovými předpisy (zákon o přenositelnosti a odpovědnosti zdravotního pojištění (HIPAA), federální zákon o správě bezpečnosti informací (FISMA) atd.), takže pokud by se na vaše interakce vztahovaly takové zákony, nesmíte služby používat. Služby nesmíte používat způsobem, který by porušoval zákon Gramm-Leach-Bliley Act (GLBA).</p>
+
+<h3 id="ip">2. PRÁVA DUŠEVNÍHO VLASTNICTVÍ</h3>
+
+<p>Naše duševní vlastnictví</p>
+
+<p>Jsme vlastníkem nebo držitelem licence na všechna práva duševního vlastnictví k našim službám, včetně veškerého zdrojového kódu, databází, funkcí, softwaru, designu webových stránek, audia, videa, textu, fotografií a grafiky ve službách (souhrnně "obsah"), stejně jako ochranných známek, servisních značek a log v nich obsažených ("značky").</p>
+
+<p>Náš obsah a značky jsou chráněny autorskými právy a zákony o ochranných známkách (a různými dalšími právy duševního vlastnictví a zákony o nekalé soutěži) a smlouvami ve Spojených státech a po celém světě.</p>
+
+<p>Obsah a značky jsou poskytovány ve Službách "TAK, JAK JSOU" nebo jejich prostřednictvím pouze pro vaše osobní, nekomerční použití nebo interní obchodní účely.</p>
+
+<p>Vaše používání našich služeb</p>
+
+<p>Za předpokladu, že budete dodržovat tyto právní podmínky, včetně části "ZAKÁZANÉ ČINNOSTI" níže, vám udělujeme nevýhradní, nepřenosnou a odvolatelnou licenci na:
+přístup ke službám; a
+stáhnout nebo vytisknout kopii jakékoli části Obsahu, ke které jste řádně získali přístup.
+výhradně pro vaše osobní, nekomerční použití nebo interní obchodní účely.</p>
+
+<p>S výjimkou případů uvedených v této části nebo jinde v našich právních podmínkách nesmí být žádná část služeb a žádný obsah nebo značky kopírovány, reprodukovány, agregovány, znovu publikovány, nahrávány, zveřejňovány, veřejně zobrazovány, kódovány, překládány, přenášeny, distribuovány, prodávány, licencovány nebo jinak využívány pro jakékoli komerční účely bez našeho výslovného předchozího písemného souhlasu.</p>
+
+<p>Pokud si přejete využívat služby, obsah nebo značky jinak, než je uvedeno v této části nebo jinde v našich právních podmínkách, adresujte svůj požadavek na adresu: . Pokud vám někdy udělíme povolení zveřejňovat, reprodukovat nebo veřejně zobrazovat jakoukoli část našich služeb nebo obsahu, musíte nás identifikovat jako vlastníky nebo poskytovatele licencí ke službám, obsahu nebo značkám a zajistit, aby se při zveřejňování, reprodukci nebo zobrazování našeho obsahu objevilo nebo bylo viditelné jakékoli oznámení o autorských právech nebo vlastnictví.</p>
+
+<p>Vyhrazujeme si všechna práva, která vám nejsou výslovně udělena ke službám, obsahu a značkám.</p>
+
+<p>Jakékoli porušení těchto práv duševního vlastnictví bude představovat závažné porušení našich právních podmínek a vaše právo používat naše služby bude okamžitě ukončeno.</p>
+
+<p>Vaše příspěvky a příspěvky</p>
+
+<p>Před použitím našich služeb si pečlivě přečtěte tuto část a sekci "ZAKÁZANÉ AKTIVITY", abyste porozuměli (a) právům, která nám udělujete, a (b) povinnostem, které máte, když zveřejňujete nebo nahráváte jakýkoli obsah prostřednictvím služeb.</p>
+
+<p>Příspěvky: Přímým zasláním jakékoli otázky, komentáře, návrhu, nápadu, zpětné vazby nebo jiných informací o službách ("příspěvky") souhlasíte s tím, že nám postoupíte všechna práva duševního vlastnictví k takovému příspěvku. Souhlasíte s tím, že budeme vlastnit tento příspěvek a budeme mít nárok na jeho neomezené použití a šíření pro jakýkoli zákonný účel, komerční nebo jiný, bez uznání nebo kompenzace pro vás.</p>
+
+<p>Příspěvky: Služby vás mohou vyzývat k chatování, přispívání nebo účasti na blozích, vývěskách, online fórech a dalších funkcích, během kterých můžete vytvářet, odesílat, zveřejňovat, zobrazovat, přenášet, publikovat, distribuovat nebo vysílat obsah a materiály nám nebo prostřednictvím Služeb, mimo jiné včetně textu, písemností, videa, zvuku, fotografií, hudby, grafiky, komentářů,  recenze, návrhy hodnocení, osobní údaje nebo jiné materiály ("příspěvky"). Jakýkoli příspěvek, který je zveřejněn, bude rovněž považován za příspěvek.</p>
+
+<p>Jste srozuměni s tím, že příspěvky mohou být viditelné pro ostatní uživatele služeb a případně prostřednictvím webových stránek třetích stran.</p>
+
+<p>Když zveřejníte příspěvky, udělujete nám licenci (včetně použití vašeho jména, ochranných známek a log): Zveřejněním jakýchkoli příspěvků nám udělujete neomezené, neomezené, neodvolatelné, trvalé, nevýhradní, převoditelné, bezplatné, plně zaplacené, celosvětové právo a licenci na: používání, kopírování, reprodukci, distribuci, prodej, další prodej, publikování, vysílání, přejmenování, ukládání, veřejné předvádění, veřejné zobrazování, přeformátování, překlad, výňatek (zcela nebo zčásti),  a využívat vaše příspěvky (mimo jiné včetně vašeho obrázku, jména a hlasu) k jakémukoli účelu, komerčnímu, reklamnímu nebo jinému, k přípravě odvozených děl nebo začlenění vašich příspěvků do jiných děl a k udělování sublicencí k licencím uděleným v tomto oddíle. Naše používání a distribuce může probíhat v jakýchkoli mediálních formátech a prostřednictvím jakýchkoli mediálních kanálů.</p>
+
+<p>Tato licence zahrnuje naše použití vašeho jména, názvu společnosti a názvu franšízy, podle toho, co je relevantní, a jakýchkoli ochranných známek, servisních značek, obchodních názvů, log a osobních a komerčních obrázků, které poskytnete.</p>
+
+<p>Jste zodpovědní za to, co zveřejníte nebo nahrajete: Zasíláním příspěvků a/nebo zveřejňováním příspěvků prostřednictvím jakékoli části služeb nebo zpřístupněním příspěvků prostřednictvím služeb propojením svého účtu prostřednictvím služeb s některým z vašich účtů na sociálních sítích:
+potvrzujete, že jste si přečetli a souhlasíte s našimi "ZAKÁZANÝMI ČINNOSTMI" a nebudete zveřejňovat, odesílat, zveřejňovat, nahrávat nebo přenášet prostřednictvím Služeb žádné Příspěvky, ani zveřejňovat žádné Příspěvky, které jsou nezákonné, obtěžující, nenávistné, škodlivé, pomlouvačné, obscénní, šikanující, urážlivé, diskriminační, ohrožující jakékoli osobě nebo skupině, sexuálně explicitní, nepravdivé, nepřesné, podvodné nebo zavádějící;
+v rozsahu povoleném platnými právními předpisy se vzdává veškerých morálních práv na jakýkoli takový Příspěvek a/nebo Příspěvek;
+zaručujete, že jakýkoli takový Příspěvek a/nebo Příspěvky jsou pro vás původní nebo že máte potřebná práva a licence k předkládání takových Příspěvků a/nebo Příspěvků a že máte plné oprávnění udělit nám výše uvedená práva ve vztahu k vašim Příspěvkům a/nebo Příspěvkům; a
+zaručujete a prohlašujete, že vaše příspěvky a/nebo příspěvky nepředstavují důvěrné informace.
+Nesete výhradní odpovědnost za své příspěvky a/nebo příspěvky a výslovně souhlasíte s tím, že nám uhradíte veškeré ztráty, které můžeme utrpět v důsledku vašeho porušení (a) tohoto oddílu, (b) práv duševního vlastnictví jakékoli třetí strany nebo (c) platných zákonů.</p>
+
+<p>Váš obsah můžeme odstranit nebo upravit: Přestože nemáme povinnost sledovat žádné příspěvky, budeme mít právo kdykoli odstranit nebo upravit jakékoli příspěvky bez předchozího upozornění, pokud podle našeho odůvodněného názoru považujeme takové příspěvky za škodlivé nebo porušující tyto právní podmínky. Pokud takové příspěvky odstraníme nebo upravíme, můžeme také pozastavit nebo deaktivovat váš účet a nahlásit vás úřadům.</p>
+
+<p>Porušení autorských práv</p>
+
+<p>Respektujeme práva duševního vlastnictví ostatních. Pokud se domníváte, že jakýkoli materiál dostupný ve službách nebo jejich prostřednictvím porušuje autorská práva, která vlastníte nebo máte pod kontrolou, okamžitě si přečtěte část "OZNÁMENÍ A ZÁSADY K ZÁKONU DIGITAL MILLENNIUM COPYRIGHT ACT (DMCA) ACT" níže.</p>
+
+<h3 id="userreps">3. UŽIVATELSKÁ VYJÁDŘENÍ</h3>
+
+<p>Používáním služeb prohlašujete a zaručujete, že: (1) všechny registrační informace, které poskytnete, budou pravdivé, přesné, aktuální a úplné; (2) budete zachovávat přesnost těchto informací a podle potřeby tyto registrační údaje neprodleně aktualizovat; (3) máte způsobilost k právním úkonům a souhlasíte s tím, že budete dodržovat tyto Právní podmínky; (4) nejste nezletilá osoba v jurisdikci, ve které máte bydliště; (5) nebudete přistupovat ke službám automatizovanými nebo nelidskými prostředky, ať už prostřednictvím robota, skriptu nebo jinak; (6) nebudete používat služby k žádným nezákonným nebo neoprávněným účelům; a (7) vaše používání služeb nebude porušovat žádné platné zákony nebo předpisy.</p>
+
+<p>Pokud poskytnete jakékoli informace, které jsou nepravdivé, nepřesné, neaktuální nebo neúplné, máme právo pozastavit nebo ukončit váš účet a odmítnout jakékoli a veškeré současné nebo budoucí používání služeb (nebo jakékoli jejich části).</p>
+
+<h3 id="userreg">4. REGISTRACE UŽIVATELE</h3>
+
+<p>Abyste mohli služby používat, můžete být požádáni, abyste se zaregistrovali. Souhlasíte s tím, že budete uchovávat své heslo v tajnosti a budete zodpovědní za veškeré používání vašeho účtu a hesla. Vyhrazujeme si právo odstranit, získat nebo změnit uživatelské jméno, které si vyberete, pokud podle našeho vlastního uvážení zjistíme, že takové uživatelské jméno je nevhodné, obscénní nebo jinak nevhodné.</p>
+
+<h3 id="products">5. VÝROBKY</h3>
+
+<p>Vynakládáme veškeré úsilí, abychom co nejpřesněji zobrazovali barvy, funkce, specifikace a podrobnosti o produktech dostupných ve Službách. Nezaručujeme však, že barvy, vlastnosti, specifikace a podrobnosti o produktech budou přesné, úplné, spolehlivé, aktuální nebo bez jiných chyb, a váš elektronický displej nemusí přesně odrážet skutečné barvy a detaily produktů. Všechny produkty podléhají dostupnosti a nemůžeme zaručit, že položky budou skladem. Vyhrazujeme si právo kdykoli a z jakéhokoli důvodu přerušit jakékoli produkty. Ceny všech produktů se mohou změnit.</p>
+
+<h3 id="purchases">6. NÁKUPY A PLATBY</h3>
+
+<p>Přijímáme následující způsoby platby:</p>
+<ul>
+    <li>Vízum</li>
+    <li>Karta Mastercard</li>
+    <li>American Express</li>
+    <li>PayPal</li>
+</ul>
+
+<p>Souhlasíte s tím, že poskytnete aktuální, úplné a přesné informace o nákupu a účtu pro všechny nákupy provedené prostřednictvím služeb. Dále souhlasíte s tím, že budete neprodleně aktualizovat informace o účtu a platbě, včetně e-mailové adresy, způsobu platby a data vypršení platnosti platební karty, abychom mohli dokončit vaše transakce a kontaktovat vás podle potřeby. K ceně nákupů bude připočtena daň z prodeje, jak budeme považovat za požadované. Ceny můžeme kdykoli změnit.</p>
+
+<p>Souhlasíte s tím, že zaplatíte všechny poplatky za ceny platné pro vaše nákupy a veškeré příslušné poplatky za dopravu a opravňujete nás k tomu, abychom vám při zadání objednávky účtovali veškeré takové částky zvolenému poskytovateli plateb. Vyhrazujeme si právo opravit jakékoli chyby nebo chyby v cenách, i když jsme již požádali o platbu nebo ji obdrželi.</p>
+
+<p>Vyhrazujeme si právo odmítnout jakoukoli objednávku zadanou prostřednictvím služeb. Na základě vlastního uvážení můžeme omezit nebo zrušit množství zakoupené na osobu, domácnost nebo objednávku. Tato omezení mohou zahrnovat objednávky zadané stejným zákaznickým účtem nebo pod stejným zákaznickým účtem, stejným způsobem platby a/nebo objednávky, které používají stejnou fakturační nebo dodací adresu. Vyhrazujeme si právo omezit nebo zakázat objednávky, které se podle našeho vlastního úsudku zdají být zadány prodejci, prodejci nebo distributory.</p>
+
+<h3 id="returnyes">7. ZÁSADY VRACENÍ ZBOŽÍ/VRACENÍ PENĚZ</h3>
+
+<p>Před provedením jakéhokoli nákupu si prosím přečtěte naše Zásady vracení zboží zveřejněné ve Službách.</p>
+
+<h3 id="software">8. SOFTWARE</h3>
+
+<p>Můžeme zahrnout software pro použití v souvislosti s našimi službami. Pokud je k takovému softwaru přiložena licenční smlouva s koncovým uživatelem ("EULA"), bude se vaše používání softwaru řídit podmínkami smlouvy EULA. Pokud k takovému softwaru není přiložena smlouva EULA, udělujeme vám nevýhradní, odvolatelnou, osobní a nepřenosnou licenci k používání takového softwaru výhradně v souvislosti s našimi službami a v souladu s těmito právními podmínkami. Jakýkoli software a jakákoli související dokumentace jsou poskytovány "TAK, JAK JSOU", bez záruky jakéhokoli druhu, výslovné nebo předpokládané, včetně, bez omezení, předpokládaných záruk obchodovatelnosti, vhodnosti pro určitý účel nebo neporušení práv. Přijímáte veškerá rizika vyplývající z používání nebo výkonu jakéhokoli softwaru. Nesmíte reprodukovat ani dále distribuovat žádný software s výjimkou případů, kdy je to v souladu se smlouvou EULA nebo těmito právními podmínkami.</p>
+
+<h3 id="prohibited">9. ZAKÁZANÉ ČINNOSTI</h3>
+
+<p>Ke službám nesmíte přistupovat ani je používat k žádnému jinému účelu, než pro který služby zpřístupňujeme. Služby nesmí být používány v souvislosti s žádnými komerčními činnostmi s výjimkou těch, které jsou výslovně schváleny nebo schváleny námi.</p>
+
+<p>Souhlasíte s tím, že jako uživatel Služeb nebudete:</p>
+<ul>
+    <li>Systematicky získávat data nebo jiný obsah ze Služeb za účelem přímého či nepřímého vytváření nebo kompilace sbírky, kompilace, databáze nebo adresáře bez našeho písemného svolení.</li>
+    <li>Klamat, podvádět nebo uvádět v omyl nás a ostatní uživatele, zejména při pokusu o zjištění citlivých informací o účtu, jako jsou uživatelská hesla.</li>
+    <li>Obcházet, deaktivovat nebo jinak zasahovat do funkcí souvisejících se zabezpečením Služeb, včetně funkcí, které brání nebo omezují používání nebo kopírování jakéhokoli Obsahu nebo vynucují omezení používání Služeb a/nebo Obsahu v nich obsaženého.</li>
+    <li>Znevažovat, pošpiňovat nebo jinak poškozovat podle našeho názoru nás a/nebo služby.</li>
+    <li>Používat jakékoli informace získané ze Služeb k obtěžování, zneužívání nebo poškozování jiné osoby.</li>
+    <li>Zneužívat naše služby podpory nebo podávat nepravdivé zprávy o zneužití nebo nesprávném chování.</li>
+    <li>Používat služby způsobem, který není v souladu s platnými zákony nebo předpisy.</li>
+    <li>Zapojovat se do neoprávněného rámování nebo odkazování na služby.</li>
+    <li>Nahrávat nebo přenášet (nebo se pokoušet nahrát nebo přenášet) viry, trojské koně nebo jiný materiál, včetně nadměrného používání velkých písmen a spamování (nepřetržité zveřejňování opakujícího se textu), který narušuje nepřetržité používání a užívání služeb jakoukoli stranou nebo upravuje, zhoršuje, narušuje, mění nebo narušuje používání, vlastnosti, funkce, provoz nebo údržbu služeb.</li>
+    <li>Zapojte se do jakéhokoli automatizovaného používání systému, jako je používání skriptů k odesílání komentářů nebo zpráv nebo používání dolování dat, robotů nebo podobných nástrojů pro shromažďování a extrakci dat.</li>
+    <li>Odstranit oznámení o autorských právech nebo jiných vlastnických právech z jakéhokoli obsahu.</li>
+    <li>Pokus o vydávání se za jiného uživatele nebo osobu nebo použití uživatelského jména jiného uživatele.</li>
+    <li>Nahrávat nebo přenášet (nebo se pokoušet nahrát nebo přenášet) jakýkoli materiál, který funguje jako pasivní nebo aktivní mechanismus shromažďování nebo přenosu informací, včetně, ale bez omezení, průhledných grafických výměnných formátů ("GIF"), 1×1 pixelů, webových štěnic, souborů cookie nebo jiných podobných zařízení (někdy označovaných jako "spyware" nebo "mechanismy pasivního shromažďování" nebo "počítače").</li>
+    <li>Zasahovat, narušovat nebo vytvářet nepřiměřenou zátěž pro služby nebo sítě nebo služby spojené se službami.</li>
+    <li>Obtěžovat, obtěžovat, zastrašovat nebo vyhrožovat kterémukoli z našich zaměstnanců nebo zástupců zapojených do poskytování jakékoli části služeb pro vás.</li>
+    <li>Pokoušet se obejít jakákoli opatření Služeb, jejichž cílem je zabránit nebo omezit přístup ke Službám nebo jakékoli části Služeb.</li>
+    <li>Kopírovat nebo upravovat software Služeb, mimo jiné včetně Flash, PHP, HTML, JavaScriptu nebo jiného kódu.</li>
+    <li>S výjimkou případů povolených rozhodným právem dešifrovat, dekompilovat, rozebírat nebo zpětně analyzovat jakýkoli software, který obsahuje nebo jakýmkoli způsobem tvoří součást služeb.</li>
+    <li>S výjimkou případů, kdy to může být výsledkem standardního vyhledávače nebo používání internetového prohlížeče, používat, spouštět, vyvíjet nebo distribuovat jakýkoli automatizovaný systém, včetně, ale bez omezení, jakéhokoli pavouka, robota, cheatovacího nástroje, scraperu nebo offline čtečky, která přistupuje ke službám, nebo používat nebo spouštět jakýkoli neautorizovaný skript nebo jiný software.</li>
+    <li>K nákupům ve službách použijte nákupního agenta nebo nákupčího.</li>
+    <li>Provádět jakékoli neoprávněné používání služeb, včetně shromažďování uživatelských jmen a/nebo e-mailových adres uživatelů elektronickými nebo jinými prostředky za účelem zasílání nevyžádaných e-mailů nebo vytváření uživatelských účtů automatizovanými prostředky nebo pod falešnými záminkami.</li>
+    <li>Používat Služby jako součást jakéhokoli úsilí konkurovat nám nebo jinak používat Služby a/nebo Obsah pro jakékoli úsilí vytvářející příjmy nebo komerční podnikání.</li>
+    <li>Používat služby k inzerci nebo nabízení k prodeji zboží a služeb.</li>
+</ul>
+
+<h3 id="ugc">10. PŘÍSPĚVKY VYTVOŘENÉ UŽIVATELI</h3>
+
+<p>Služby vás mohou vyzývat k chatování, přispívání nebo účasti na blozích, vývěskách, online fórech a dalších funkcích a mohou vám poskytnout příležitost vytvářet, odesílat, zveřejňovat, zobrazovat, přenášet, provádět, publikovat, distribuovat nebo vysílat obsah a materiály pro nás nebo ve Službách, včetně, ale bez omezení na text, spisy, video, audio,  fotografie, grafika, komentáře, návrhy nebo osobní informace nebo jiné materiály (souhrnně "příspěvky"). Příspěvky mohou být viditelné pro ostatní uživatele služeb a prostřednictvím webových stránek třetích stran. Jako takové mohou být veškeré příspěvky, které předáváte, považovány za nedůvěrné a nechráněné. Když vytvoříte nebo zpřístupníte jakékoli příspěvky, prohlašujete a zaručujete, že:</p>
+<ul>
+    <li>Vytváření, distribuce, přenos, veřejné zobrazování nebo výkon a přístup, stahování nebo kopírování vašich příspěvků neporušují a nebudou porušovat vlastnická práva, mimo jiné včetně autorských práv, patentů, ochranných známek, obchodního tajemství nebo osobnostních práv jakékoli třetí strany.</li>
+    <li>Jste tvůrcem a vlastníkem nebo máte potřebné licence, práva, souhlasy, zproštění odpovědnosti a povolení k používání a oprávnění nás, služeb a dalších uživatelů služeb používat vaše příspěvky jakýmkoli způsobem zamýšleným ve službách a těchto právních podmínkách.</li>
+    <li>Máte písemný souhlas, souhlas a/nebo povolení každé identifikovatelné fyzické osoby ve svých příspěvcích používat jméno nebo podobu každé takové identifikovatelné fyzické osoby k umožnění zahrnutí a použití vašich příspěvků jakýmkoli způsobem zamýšleným ve službách a těchto právních podmínkách.</li>
+    <li>Vaše příspěvky nejsou nepravdivé, nepřesné ani zavádějící.</li>
+    <li>Vaše příspěvky nejsou nevyžádanou nebo neoprávněnou reklamou, propagačními materiály, pyramidovými schématy, řetězovými dopisy, spamem, hromadnou poštou nebo jinými formami žádostí.</li>
+    <li>Vaše příspěvky nejsou obscénní, oplzlé, lascivní, špinavé, násilné, obtěžující, pomlouvačné, pomlouvačné nebo jinak nevhodné (jak jsme určili).</li>
+    <li>Vaše příspěvky nikoho nezesměšňují, nezesměšňují, nezlehčují, nezastrašují ani nezneužívají.</li>
+    <li>Vaše příspěvky nejsou používány k obtěžování nebo vyhrožování (v právním smyslu těchto termínů) jakékoli jiné osobě a k propagaci násilí proti konkrétní osobě nebo třídě lidí.</li>
+    <li>Vaše příspěvky neporušují žádné platné zákony, předpisy nebo pravidla.</li>
+    <li>Vaše příspěvky neporušují práva na soukromí nebo publicitu žádné třetí strany.</li>
+    <li>Vaše příspěvky neporušují žádné platné zákony týkající se dětské pornografie ani nejsou jinak určeny k ochraně zdraví nebo blaha nezletilých.</li>
+    <li>Vaše příspěvky neobsahují žádné urážlivé komentáře, které souvisejí s rasou, národnostním původem, pohlavím, sexuální preferencí nebo fyzickým handicapem.</li>
+    <li>Vaše příspěvky jinak neporušují ani neodkazují na materiály, které porušují jakékoli ustanovení těchto právních podmínek nebo jakéhokoli platného zákona nebo nařízení.</li>
+</ul>
+
+<p>Jakékoli používání služeb v rozporu s výše uvedeným porušuje tyto právní podmínky a může mít za následek mimo jiné ukončení nebo pozastavení vašich práv na používání služeb.</p>
+
+<h3 id="license">11. LICENCE PŘÍSPĚVKU</h3>
+
+<p>Zveřejněním svých příspěvků v jakékoli části služeb nebo zpřístupněním příspěvků ve službách propojením vašeho účtu ze služeb s některým z vašich účtů na sociálních sítích automaticky udělujete a prohlašujete a zaručujete, že máte právo nám udělit neomezený, neomezený, neodvolatelný, trvalý, nevýhradní, přenosný, bezplatný,  plně placené, celosvětové právo a licence hostovat, používat, kopírovat, reprodukovat, zveřejňovat, prodávat, prodávat, publikovat, vysílat, přejmenovávat, archivovat, ukládat, ukládat do mezipaměti, veřejně předvádět, veřejně zobrazovat, přeformátovat, překládat, přenášet, vyjímat (zcela nebo zčásti) a distribuovat takové příspěvky (včetně, bez omezení, vašeho obrazu a hlasu) pro jakýkoli účel, komerční, reklamní nebo jiný, a připravovat odvozená díla,  nebo začlenit do jiných děl takové příspěvky a udělovat a povolovat sublicence výše uvedeného. K použití a distribuci může dojít v libovolných mediálních formátech a prostřednictvím jakýchkoli mediálních kanálů.</p>
+
+<p>Tato licence se bude vztahovat na jakoukoli formu, médium nebo technologii, která je nyní známá nebo bude vyvinuta v budoucnu, a zahrnuje naše použití vašeho jména, názvu společnosti a názvu franšízy, podle toho, co je relevantní, a jakýchkoli ochranných známek, servisních značek, obchodních názvů, log a osobních a komerčních obrázků, které poskytnete. Zříkáte se všech morálních práv ve svých příspěvcích a zaručujete, že morální práva nebyla jinak uplatněna ve vašich příspěvcích.</p>
+
+<p>Neuplatňujeme žádné vlastnictví vašich příspěvků. Ponecháváte si plné vlastnictví všech svých příspěvků a veškerých práv duševního vlastnictví nebo jiných vlastnických práv spojených s vašimi příspěvky. Neneseme odpovědnost za žádná prohlášení nebo prohlášení ve vašich příspěvcích, které jste poskytli v jakékoli oblasti služeb. Nesete výhradní odpovědnost za své příspěvky do služeb a výslovně souhlasíte s tím, že nás zprostíte veškeré odpovědnosti a zdržíte se jakýchkoli právních kroků proti nám v souvislosti s vašimi příspěvky.</p>
+
+<p>Máme právo na základě našeho výhradního a absolutního uvážení (1) upravovat, redigovat nebo jinak měnit jakékoli příspěvky; (2) překategorizovat jakékoli příspěvky tak, aby byly umístěny na vhodnějších místech ve službách; a (3) předběžně kontrolovat nebo mazat jakékoli příspěvky, a to kdykoli a z jakéhokoli důvodu bez předchozího upozornění. Nemáme žádnou povinnost sledovat vaše příspěvky.</p>
+
+<h3 id="reviews">12. POKYNY PRO PŘEZKUMY</h3>
+
+<p>Můžeme vám poskytnout oblasti ve Službách, abyste mohli psát recenze nebo hodnocení. Při zveřejňování recenze musíte splňovat následující kritéria: (1) měli byste mít bezprostřední zkušenost s osobou/subjektem, který je hodnocen; (2) vaše recenze nesmí obsahovat urážlivé vulgární výrazy nebo urážlivé, rasistické, urážlivé nebo nenávistné výrazy; (3) Vaše recenze by neměly obsahovat diskriminační odkazy na základě náboženství, rasy, pohlaví, národnostního původu, věku, rodinného stavu, sexuální orientace nebo zdravotního postižení; (4) vaše recenze by neměly obsahovat odkazy na nezákonnou činnost; (5) neměli byste být spojeni s konkurencí, pokud zveřejňujete negativní recenze; (6) neměli byste činit žádné závěry ohledně zákonnosti jednání; (7) nesmíte zveřejňovat žádná nepravdivá nebo zavádějící prohlášení; a (8) nesmíte organizovat kampaň povzbuzující ostatní ke zveřejňování recenzí, ať už pozitivních nebo negativních.</p>
+
+<p>Recenze můžeme přijmout, odmítnout nebo odstranit podle vlastního uvážení. Nemáme absolutně žádnou povinnost kontrolovat recenze nebo je mazat, a to ani v případě, že je někdo považuje za nežádoucí nebo nepřesná. Recenze neschvalujeme a nemusí nutně představovat naše názory nebo názory našich přidružených společností nebo partnerů. Nepřebíráme odpovědnost za jakoukoli kontrolu nebo za jakékoli nároky, závazky nebo ztráty vyplývající z jakéhokoli přezkumu. Zveřejněním recenze nám tímto udělujete trvalé, nevýhradní, celosvětové, bezplatné, plně zaplacené, postupitelné a sublicencovatelné právo a licenci reprodukovat, upravovat, překládat, přenášet jakýmikoli prostředky, zobrazovat, provádět a/nebo distribuovat veškerý obsah související s recenzí.</p>
+
+<h3 id="socialmedia">13. SOCIÁLNÍ MÉDIA</h3>
+
+<p>V rámci funkčnosti služeb můžete propojit svůj účet s online účty, které máte u poskytovatelů služeb třetích stran (každý takový účet je "účet třetí strany"), a to buď: (1) poskytnutím přihlašovacích údajů k účtu třetí strany prostřednictvím služeb; nebo (2) umožnění přístupu k vašemu účtu třetí strany, jak je povoleno podle platných podmínek, kterými se řídí vaše používání každého účtu třetí strany. Prohlašujete a zaručujete, že jste oprávněni nám sdělit své přihlašovací údaje k účtu třetí strany a/nebo nám udělit přístup ke svému účtu třetí strany, aniž byste porušili jakékoli podmínky, kterými se řídí vaše používání příslušného účtu třetí strany, a aniž byste nás zavazovali platit jakékoli poplatky nebo nás podléhali jakýmkoli omezením používání uloženým poskytovatelem služeb účtu třetí strany. Tím, že nám udělíte přístup k jakýmkoli účtům třetích stran, berete na vědomí, že (1) můžeme přistupovat, zpřístupňovat a ukládat (je-li to relevantní) jakýkoli obsah, který jste poskytli a uložili na svém účtu třetí strany ("obsah sociálních sítí"), aby byl k dispozici ve službách a prostřednictvím služeb prostřednictvím vašeho účtu, mimo jiné včetně seznamů přátel a (2) můžeme odeslat a obdržet od vašeho účtu třetí strany další informace v rozsahu, v jakém jsou upozorněni, když propojíte svůj účet s účtem třetí strany. V závislosti na účtech třetích stran, které si vyberete, a v souladu s nastavením ochrany osobních údajů, které jste v těchto účtech třetích stran nastavili, mohou být osobně identifikovatelné informace, které zveřejníte na svých účtech třetích stran, k dispozici na vašem účtu ve službách a jejich prostřednictvím. Vezměte prosím na vědomí, že pokud se účet třetí strany nebo přidružená služba stanou nedostupnými nebo poskytovatel služeb třetí strany ukončí náš přístup k takovému účtu třetí strany, pak obsah sociálních sítí již nemusí být ve službách a jejich prostřednictvím k dispozici. Budete mít možnost kdykoli deaktivovat spojení mezi vaším účtem ve Službách a Účty třetích stran. VEZMĚTE PROSÍM NA VĚDOMÍ, ŽE VÁŠ VZTAH S POSKYTOVATELI SLUŽEB TŘETÍCH STRAN SPOJENÝMI S VAŠIMI ÚČTY TŘETÍCH STRAN SE ŘÍDÍ VÝHRADNĚ VAŠÍ SMLOUVOU (SMLOUVAMI) S TĚMITO POSKYTOVATELI SLUŽEB TŘETÍCH STRAN. Nesnažíme se kontrolovat jakýkoli obsah sociálních sítí za jakýmkoli účelem, včetně, ale nikoli výhradně, přesnosti, zákonnosti nebo neporušení práv, a nejsme zodpovědní za žádný obsah sociálních sítí. Berete na vědomí a souhlasíte s tím, že můžeme přistupovat k vašemu e-mailovému adresáři spojenému s účtem třetí strany a k vašemu seznamu kontaktů uloženému ve vašem mobilním zařízení nebo tabletu výhradně za účelem identifikace a informování těch kontaktů, které se také zaregistrovaly k používání služeb. Spojení mezi Službami a svým účtem třetí strany můžete deaktivovat tak, že nás kontaktujete pomocí níže uvedených kontaktních údajů nebo prostřednictvím nastavení účtu (je-li to relevantní). Pokusíme se smazat veškeré informace uložené na našich serverech, které byly získány prostřednictvím takového účtu třetí strany, s výjimkou uživatelského jména a profilového obrázku, které se spojí s vaším účtem.</p>
+
+<h3 id="thirdparty">14. WEBOVÉ STRÁNKY A OBSAH TŘETÍCH STRAN</h3>
+
+<p>Služby mohou obsahovat (nebo vám mohou být zaslány prostřednictvím stránek) odkazy na jiné webové stránky ("webové stránky třetích stran"), jakož i články, fotografie, text, grafiku, obrázky, designy, hudbu, zvuk, video, informace, aplikace, software a další obsah nebo položky patřící třetím stranám nebo pocházející od třetích stran ("obsah třetích stran"). Takové webové stránky třetích stran a obsah třetích stran nezkoumáme, nesledujeme ani nekontrolujeme z hlediska přesnosti, vhodnosti nebo úplnosti a neneseme odpovědnost za žádné webové stránky třetích stran přístupné prostřednictvím služeb nebo za jakýkoli obsah třetích stran zveřejněný, dostupný prostřednictvím nebo nainstalovaný ze služeb, včetně obsahu, přesnosti, urážlivosti, názorů, spolehlivosti, postupů ochrany osobních údajů nebo jiných zásad webových stránek třetích stran nebo obsažených na webových stránkách třetích stran nebo třetích stran Obsah. Zahrnutí, propojení nebo povolení používání nebo instalace jakýchkoli webových stránek třetích stran nebo jakéhokoli obsahu třetích stran neznamená jejich schválení nebo schválení z naší strany. Pokud se rozhodnete opustit Služby a vstoupit na Webové stránky třetích stran nebo použít či nainstalovat jakýkoli Obsah třetích stran, činíte tak na vlastní riziko a měli byste si být vědomi toho, že tyto Právní podmínky již neplatí. Měli byste si přečíst příslušné podmínky a zásady, včetně postupů ochrany osobních údajů a shromažďování dat, všech webových stránek, na které přecházíte ze Služeb, nebo souvisejících s jakýmikoli aplikacemi, které používáte nebo instalujete ze Služeb. Veškeré nákupy, které provedete prostřednictvím webových stránek třetích stran, budou probíhat prostřednictvím jiných webových stránek a od jiných společností a my neneseme žádnou odpovědnost ve vztahu k takovým nákupům, které jsou výhradně mezi vámi a příslušnou třetí stranou. Souhlasíte a uznáváte, že nepodporujeme produkty nebo služby nabízené na webových stránkách třetích stran a budete nás činit nevinnými za jakoukoli škodu způsobenou nákupem takových produktů nebo služeb. Kromě toho nás budete činit bezúhonnými za jakékoli ztráty, které utrpíte, nebo za újmu, která vám byla způsobena v souvislosti s jakýmkoli obsahem třetích stran nebo jakýmkoli způsobem vyplývajícím z jakéhokoli obsahu třetích stran nebo jakéhokoli kontaktu s webovými stránkami třetích stran.</p>
+
+<h3 id="sitemanage">15. SPRÁVA SLUŽEB</h3>
+
+<p>Vyhrazujeme si právo, nikoli však povinnost: (1) monitorovat služby z hlediska porušení těchto právních podmínek; (2) podniknout příslušné právní kroky proti komukoli, kdo podle našeho výhradního uvážení poruší zákon nebo tyto právní podmínky, mimo jiné včetně nahlášení takového uživatele orgánům činným v trestním řízení; (3) dle našeho výhradního uvážení a bez omezení odmítnout, omezit přístup, omezit dostupnost nebo zakázat (v rozsahu technologicky proveditelné) kteréhokoli z vašich příspěvků nebo jakékoli jejich části; (4) podle našeho výhradního uvážení a bez omezení, oznámení nebo odpovědnosti odstranit ze služeb nebo jinak zakázat všechny soubory a obsah, které jsou nadměrné velikosti nebo jakýmkoli způsobem zatěžují naše systémy; a (5) jinak spravovat služby způsobem, který je navržen tak, aby chránil naše práva a majetek a usnadňoval řádné fungování služeb.</p>
+
+<h3 id="ppyes">16. ZÁSADY OCHRANY OSOBNÍCH ÚDAJŮ</h3>
+
+<p>Záleží nám na ochraně osobních údajů a bezpečnosti. Přečtěte si prosím naše <a target="_blank" href="agreement.html">Zásady ochrany osobních údajů</a>. Používáním služeb souhlasíte s tím, že budete vázáni našimi zásadami ochrany osobních údajů, které jsou začleněny do těchto právních podmínek. Vezměte prosím na vědomí, že služby jsou hostovány ve Velké Británii. Pokud přistupujete ke službám z jakékoli jiné oblasti světa se zákony nebo jinými požadavky upravujícími shromažďování, používání nebo zveřejňování osobních údajů, které se liší od platných zákonů ve Spojeném království, pak pokračováním v používání služeb přenášíte své údaje do Spojeného království a výslovně souhlasíte s tím, aby vaše údaje byly převedeny a zpracovány ve Spojeném království.</p>
+
+<h3 id="dmca">17. OZNÁMENÍ A ZÁSADY ZÁKONA DIGITAL MILLENNIUM COPYRIGHT ACT (DMCA)</h3>
+
+<p>Upozornění</p>
+
+<p>Respektujeme práva duševního vlastnictví ostatních. Pokud se domníváte, že jakýkoli materiál dostupný ve službách nebo jejich prostřednictvím porušuje autorská práva, která vlastníte nebo máte pod kontrolou, okamžitě informujte našeho určeného zástupce pro autorská práva pomocí níže uvedených kontaktních údajů ("oznámení"). Kopie vašeho oznámení bude zaslána osobě, která zveřejnila nebo uložila materiál uvedený v oznámení. Vezměte prosím na vědomí, že podle federálních zákonů můžete nést odpovědnost za škody, pokud v oznámení uvedete závažná zkreslení. Pokud si tedy nejste jisti, že materiál umístěný ve službách nebo na který služby odkazuje, porušuje vaše autorská práva, měli byste nejprve kontaktovat právního zástupce.</p>
+
+<p>Všechna oznámení by měla splňovat požadavky DMCA 17 U.S.C. § 512(c)(3) a obsahovat následující informace: (1) Fyzický nebo elektronický podpis osoby oprávněné jednat jménem vlastníka výhradního práva, které je údajně porušeno; (2) identifikaci díla chráněného autorskými právy, které bylo údajně porušeno, nebo, pokud se oznámení vztahuje na více děl chráněných autorským právem ve službách, reprezentativní seznam těchto děl ve službách; (3) identifikaci materiálu, který údajně porušuje autorská práva nebo je předmětem činnosti porušující autorská práva a který má být odstraněn nebo k němuž má být znemožněn přístup, a informace přiměřeně dostatečné k tomu, aby nám umožnily materiál najít; (4) informace přiměřeně dostačující k tomu, abychom mohli kontaktovat stěžující si stranu, jako je adresa, telefonní číslo a, je-li k dispozici, e-mailová adresa, na které lze žalující stranu kontaktovat; (5) prohlášení, že se stěžující strana v dobré víře domnívá, že použití materiálu způsobem, na který si stěžuje, není povoleno vlastníkem autorských práv, jeho zástupcem nebo zákonem; a (6) prohlášení, že informace v oznámení jsou přesné, a pod hrozbou trestu za křivou přísahu, že stěžující si strana je oprávněna jednat jménem vlastníka výhradního práva, které je údajně porušeno.</p>
+
+<p>Protioznámení</p>
+
+<p>Pokud se domníváte, že váš vlastní materiál chráněný autorskými právy byl ze služeb odstraněn v důsledku chyby nebo nesprávné identifikace, můžete odeslat písemné protioznámení [nám / našemu určenému zástupci pro autorská práva] pomocí níže uvedených kontaktních údajů ("protioznámení"). Aby bylo vaše protioznámení účinné podle zákona DMCA, musí obsahovat v podstatě následující: (1) identifikaci materiálu, který byl odstraněn nebo znehodnocen, a místo, kde se materiál objevil předtím, než byl odstraněn nebo znehodnocen; (2) prohlášení, že souhlasíte s jurisdikcí federálního okresního soudu, ve kterém se nachází vaše adresa, nebo pokud je vaše adresa mimo Spojené státy, pro jakýkoli soudní okres, ve kterém se nacházíme; (3) prohlášení, že přijmete soudní doručení od strany, která podala oznámení, nebo od zástupce strany; (4) vaše jméno, adresu a telefonní číslo; (5) prohlášení pod hrozbou trestu za křivou přísahu, že se v dobré víře domníváte, že dotyčný materiál byl odstraněn nebo znehodnocen v důsledku chyby nebo nesprávné identifikace materiálu, který má být odstraněn nebo znehodnocen; a (6) váš fyzický nebo elektronický podpis.</p>
+
+<p>Pokud nám zašlete platné písemné protioznámení, které splňuje výše popsané požadavky, obnovíme váš odstraněný nebo znehodnocený materiál, pokud nejprve neobdržíme oznámení od strany, která oznámení podala, informující nás, že tato strana podala soudní žalobu, aby vám zabránila v účasti na činnosti porušující autorská práva související s daným materiálem. Vezměte prosím na vědomí, že pokud věcně nepravdivě uvedete, že deaktivovaný nebo odstraněný obsah byl odstraněn omylem nebo chybnou identifikací, můžete nést odpovědnost za škody, včetně nákladů a poplatků za právní zastoupení. Podání nepravdivého protioznámení představuje křivou přísahu.</p>
+
+<p>Určený zástupce pro autorská práva</p>
+<ul>
+    <li>Kontakt: Copyright Agent</li>
+    <li></li>
+    <li></li>
+</ul>
+
+<h3 id="terms">18. DOBA TRVÁNÍ A UKONČENÍ</h3>
+
+<p>Tyto právní podmínky zůstanou v plné platnosti a účinnosti po dobu používání služeb. ANIŽ BY TÍM BYLA OMEZENA JAKÁKOLI JINÁ USTANOVENÍ TĚCHTO PRÁVNÍCH PODMÍNEK, VYHRAZUJEME SI PRÁVO DLE VLASTNÍHO UVÁŽENÍ A BEZ UPOZORNĚNÍ NEBO ODPOVĚDNOSTI ODEPŘÍT PŘÍSTUP KE SLUŽBÁM A JEJICH POUŽÍVÁNÍ (VČETNĚ BLOKOVÁNÍ URČITÝCH IP ADRES) JAKÉKOLI OSOBĚ Z JAKÉHOKOLI DŮVODU NEBO BEZ DŮVODU, MIMO JINÉ VČETNĚ PORUŠENÍ JAKÉHOKOLI ZASTOUPENÍ, ZÁRUKY NEBO ZÁVAZKU OBSAŽENÉHO V TĚCHTO PRÁVNÍCH PODMÍNKÁCH NEBO JAKÉHOKOLI PLATNÉHO ZÁKONA NEBO NAŘÍZENÍ. MŮŽEME UKONČIT VAŠE POUŽÍVÁNÍ NEBO ÚČAST VE SLUŽBÁCH NEBO SMAZAT VÁŠ ÚČET A JAKÝKOLI OBSAH NEBO INFORMACE, KTERÉ JSTE ZVEŘEJNILI KDYKOLI, BEZ VAROVÁNÍ, PODLE NAŠEHO VLASTNÍHO UVÁŽENÍ.</p>
+
+<p>Pokud z jakéhokoli důvodu ukončíme nebo pozastavíme váš účet, máte zakázáno zaregistrovat a vytvořit nový účet pod svým jménem, falešným nebo vypůjčeným jménem nebo jménem jakékoli třetí strany, a to i v případě, že jednáte jménem třetí strany. Kromě ukončení nebo pozastavení vašeho účtu si vyhrazujeme právo podniknout příslušné právní kroky, mimo jiné včetně občanskoprávní, trestní a soudní nápravy.</p>
+
+<h3 id="modifications">19. ZMĚNY A PŘERUŠENÍ</h3>
+
+<p>Vyhrazujeme si právo kdykoli nebo z jakéhokoli důvodu změnit, upravit nebo odstranit obsah služeb podle našeho vlastního uvážení bez předchozího upozornění. Nemáme však žádnou povinnost aktualizovat jakékoli informace o našich službách. Vyhrazujeme si také právo kdykoli změnit nebo ukončit všechny nebo část služeb bez předchozího upozornění. Neneseme odpovědnost vůči vám ani žádné třetí straně za žádné změny, změny cen, pozastavení nebo ukončení služeb.</p>
+
+<p>Nemůžeme zaručit, že služby budou vždy dostupné. Můžeme se setkat s hardwarem, softwarem nebo jinými problémy nebo potřebovat provést údržbu související se službami, což může vést k přerušení, zpoždění nebo chybám. Vyhrazujeme si právo kdykoli nebo z jakéhokoli důvodu změnit, revidovat, aktualizovat, pozastavit, přerušit nebo jinak upravit služby bez předchozího upozornění. Souhlasíte s tím, že neneseme žádnou odpovědnost za jakoukoli ztrátu, škodu nebo nepříjemnosti způsobené vaší nemožností přístupu ke službám nebo jejich používání během jakéhokoli výpadku nebo ukončení služeb. Nic v těchto Právních podmínkách nebude vykládáno tak, že nás zavazuje udržovat a podporovat Služby nebo poskytovat jakékoli opravy, aktualizace nebo uvolnění v souvislosti s nimi.</p>
+
+<h3 id="law">20. ROZHODNÉ PRÁVO</h3>
+
+<p>Tyto právní podmínky se řídí a vykládají podle zákonů Anglie a výslovně se na ně vztahuje Úmluva OSN o smlouvách o mezinárodní koupi zboží. Pokud máte obvyklé bydliště v EU, USA nebo v kterékoli z dalších 62 zemí, které jsou smluvními stranami úmluvy, máte navíc ochranu, kterou vám poskytují závazná ustanovení zákona v zemi vašeho bydliště. To znamená, že můžete vznést nárok na obhajobu svých práv na ochranu spotřebitele v souvislosti s těmito právními podmínkami v Anglii nebo v kterékoli zemi, která je smluvní stranou úmluvy, kde máte bydliště.</p>
+
+<h3 id="disputes">21. ŘEŠENÍ SPORŮ</h3>
+
+<h5>Závazné rozhodčí řízení</h5>
+
+<p>Pokud jste obyvatelem Evropské unie, veškeré spory vyplývající z těchto právních podmínek nebo s nimi související budou řešeny rozhodcem jmenovaným v souladu s rozhodčím řízením a vnitřními pravidly Evropského rozhodčího soudu, který je součástí Evropského centra rozhodčího řízení se sídlem ve Štrasburku. Místem konání takového rozhodčího řízení bude Anglie. Převažujícím jazykem řízení je angličtina. Rozhodným právem pro tato řízení budou zákony Anglie.</p>
+
+<p>Pokud jste obyvatelem Spojených států amerických, budou spory řešeny rozhodčím řízením ve Spojených státech. Rozhodným právem pro tato řízení budou zákony USA.</p>
+
+<p>Pro obyvatele jakékoli jiné země budou místo rozhodčího řízení a postupy stejné jako ty, které jsou stanoveny pro rezidenty Evropské unie.</p>
+
+<h5>Omezení</h5>
+
+<p>Strany se dohodly, že jakékoli rozhodčí řízení bude omezeno na Spor mezi Stranami jednotlivě. V plném rozsahu povoleném zákonem (a) žádné rozhodčí řízení nebude spojeno s žádným jiným řízením; (b) neexistuje právo ani oprávnění k tomu, aby byl jakýkoli spor rozhodován na základě skupinové žaloby nebo aby byly využity postupy skupinové žaloby; a (c) neexistuje žádné právo ani oprávnění k tomu, aby byl jakýkoli spor veden domněle jako zástupce jménem široké veřejnosti nebo jiných osob.</p>
+
+<h5>Výjimky z rozhodčího řízení</h5>
+
+<p>Strany se dohodly, že výše uvedeným ustanovením týkajícím se závazného rozhodčího řízení se nevztahují následující spory: (a) jakékoli spory, jejichž cílem je vymáhat nebo chránit nebo které se týkají platnosti kteréhokoli z práv duševního vlastnictví strany; (b) jakýkoli spor související nebo vyplývající z obvinění z krádeže, pirátství, narušení soukromí nebo neoprávněného použití; a (c) jakýkoli nárok na soudní zákaz. Bude-li toto ustanovení shledáno nezákonným nebo nevymahatelným, pak se žádná ze stran nerozhodne rozhodovat o jakémkoli sporu spadajícím do té části tohoto ustanovení, která bude shledána nezákonnou nebo nevymahatelnou, a takový spor bude rozhodnut soudem příslušné jurisdikce v rámci soudů uvedených pro výše uvedenou jurisdikci a strany souhlasí s tím, že se podřídí osobní jurisdikci tohoto soudu.</p>
+
+<h3 id="corrections">22. OPRAVY</h3>
+
+<p>O službách mohou být informace, které obsahují typografické chyby, nepřesnosti nebo opomenutí, včetně popisů, cen, dostupnosti a různých dalších informací. Vyhrazujeme si právo opravit jakékoli chyby, nepřesnosti nebo opomenutí a kdykoli bez předchozího upozornění změnit nebo aktualizovat informace o službách.</p>
+
+<h3 id="disclaimer">23. ODMÍTNUTÍ ODPOVĚDNOSTI</h3>
+
+<p>SLUŽBY JSOU POSKYTOVÁNY TAK, JAK JSOU, A TAK, JAK JSOU K DISPOZICI. SOUHLASÍTE S TÍM, ŽE SLUŽBY BUDETE POUŽÍVAT NA VLASTNÍ RIZIKO. V MAXIMÁLNÍM ROZSAHU POVOLENÉM ZÁKONEM SE ZŘÍKÁME VŠECH ZÁRUK, VÝSLOVNÝCH NEBO PŘEDPOKLÁDANÝCH, V SOUVISLOSTI SE SLUŽBAMI A JEJICH POUŽÍVÁNÍM VÁMI, MIMO JINÉ VČETNĚ PŘEDPOKLÁDANÝCH ZÁRUK OBCHODOVATELNOSTI, VHODNOSTI PRO URČITÝ ÚČEL A NEPORUŠENÍ PRÁV. NEPOSKYTUJEME ŽÁDNÉ ZÁRUKY ANI PROHLÁŠENÍ OHLEDNĚ PŘESNOSTI NEBO ÚPLNOSTI OBSAHU SLUŽEB NEBO OBSAHU JAKÝCHKOLI WEBOVÝCH STRÁNEK NEBO MOBILNÍCH APLIKACÍ SPOJENÝCH SE SLUŽBAMI A NEPŘEBÍRÁME ŽÁDNOU ODPOVĚDNOST ZA JAKÉKOLI (1) CHYBY, CHYBY NEBO NEPŘESNOSTI OBSAHU A MATERIÁLŮ, (2) ZRANĚNÍ OSOB NEBO ŠKODY NA MAJETKU JAKÉKOLI POVAHY,  V DŮSLEDKU VAŠEHO PŘÍSTUPU KE SLUŽBÁM A JEJICH POUŽÍVÁNÍ, (3) JAKÉHOKOLI NEOPRÁVNĚNÉHO PŘÍSTUPU NEBO POUŽITÍ NAŠICH ZABEZPEČENÝCH SERVERŮ A/NEBO JAKÝCHKOLI A VŠECH OSOBNÍCH ÚDAJŮ A/NEBO FINANČNÍCH INFORMACÍ NA NICH ULOŽENÝCH, (4) JAKÉHOKOLI PŘERUŠENÍ NEBO UKONČENÍ PŘENOSU DO SLUŽEB NEBO ZE SLUŽEB, (5) JAKÝCHKOLI CHYB, VIRŮ, TROJSKÝCH KONÍ APOD., KTERÉ MOHOU BÝT PŘENÁŠENY DO SLUŽEB NEBO PROSTŘEDNICTVÍM SLUŽEB JAKOUKOLI TŘETÍ STRANOU,  A/NEBO (6) JAKÉKOLI CHYBY NEBO OPOMENUTÍ V JAKÉMKOLI OBSAHU A MATERIÁLECH NEBO ZA JAKOUKOLI ZTRÁTU NEBO ŠKODU JAKÉHOKOLI DRUHU VZNIKLOU V DŮSLEDKU POUŽITÍ JAKÉHOKOLI OBSAHU ZVEŘEJNĚNÉHO, PŘENÁŠENÉHO NEBO JINAK ZPŘÍSTUPNĚNÉHO PROSTŘEDNICTVÍM SLUŽEB. NEZARUČUJEME, NESCHVALUJEME, NEGARANTUJEME ANI NEPŘEBÍRÁME ODPOVĚDNOST ZA JAKÝKOLI PRODUKT NEBO SLUŽBU INZEROVANOU NEBO NABÍZENOU TŘETÍ STRANOU PROSTŘEDNICTVÍM SLUŽEB, JAKÉKOLI WEBOVÉ STRÁNKY S HYPERTEXTOVÝM ODKAZEM NEBO JAKÉKOLI WEBOVÉ STRÁNKY NEBO MOBILNÍ APLIKACE UVEDENÉ V JAKÉMKOLI BANNERU NEBO JINÉ REKLAMĚ A NEBUDEME STRANOU ANI ŽÁDNÝM ZPŮSOBEM NESEME ODPOVĚDNOST ZA SLEDOVÁNÍ JAKÉKOLI TRANSAKCE MEZI VÁMI A POSKYTOVATELI PRODUKTŮ NEBO SLUŽEB TŘETÍCH STRAN. STEJNĚ JAKO PŘI NÁKUPU PRODUKTU NEBO SLUŽBY PROSTŘEDNICTVÍM JAKÉHOKOLI MÉDIA NEBO V JAKÉMKOLI PROSTŘEDÍ BYSTE MĚLI POUŽÍT SVŮJ NEJLEPŠÍ ÚSUDEK A V PŘÍPADĚ POTŘEBY POSTUPOVAT OPATRNĚ.</p>
+
+<h3 id="liability">24. OMEZENÍ ODPOVĚDNOSTI</h3>
+
+<p>V ŽÁDNÉM PŘÍPADĚ NEBUDEME MY ANI NAŠI ŘEDITELÉ, ZAMĚSTNANCI NEBO ZÁSTUPCI ODPOVĚDNÍ VÁM ANI ŽÁDNÉ TŘETÍ STRANĚ ZA ŽÁDNÉ PŘÍMÉ, NEPŘÍMÉ, NÁSLEDNÉ, EXEMPLÁRNÍ, NÁHODNÉ, ZVLÁŠTNÍ NEBO TRESTNÍ ŠKODY, VČETNĚ UŠLÉHO ZISKU, ZTRÁTY PŘÍJMŮ, ZTRÁTY DAT NEBO JINÝCH ŠKOD VYPLÝVAJÍCÍCH Z VAŠEHO POUŽÍVÁNÍ SLUŽEB, A TO ANI V PŘÍPADĚ, ŽE JSME BYLI NA MOŽNOST VZNIKU TAKOVÝCH ŠKOD UPOZORNĚNI. BEZ OHLEDU NA COKOLI, CO JE V ROZPORU S TÍMTO DOKUMENTEM, BUDE NAŠE ODPOVĚDNOST VŮČI VÁM Z JAKÉHOKOLI DŮVODU A BEZ OHLEDU NA FORMU ŽALOBY VŽDY OMEZENA NA ČÁSTKU, KTEROU JSTE NÁM PŘÍPADNĚ ZAPLATILI BĚHEM OBDOBÍ ŠESTI (6) MĚSÍCŮ PŘED VZNIKEM JAKÉHOKOLI DŮVODU ŽALOBY. NĚKTERÉ ZÁKONY STÁTŮ USA A MEZINÁRODNÍ ZÁKONY NEUMOŽŇUJÍ OMEZENÍ PŘEDPOKLÁDANÝCH ZÁRUK NEBO VYLOUČENÍ ČI OMEZENÍ URČITÝCH ŠKOD. POKUD SE NA VÁS TYTO ZÁKONY VZTAHUJÍ, NĚKTERÁ NEBO VŠECHNA VÝŠE UVEDENÁ ODMÍTNUTÍ NEBO OMEZENÍ SE NA VÁS NEMUSÍ VZTAHOVAT A MŮŽETE MÍT DALŠÍ PRÁVA.</p>
+
+<h3 id="indemnification">25. ODŠKODNĚNÍ</h3>
+
+<p>Souhlasíte s tím, že nás budete bránit, odškodníte a zbavíte odpovědnosti včetně našich dceřiných společností, přidružených společností a všech našich příslušných úředníků, zástupců, partnerů a zaměstnanců, před a proti jakýmkoli ztrátám, škodám, závazkům, nárokům nebo požadavkům, včetně přiměřených poplatků a výdajů na právní zastoupení, které vznese jakákoli třetí strana v důsledku nebo vyplývajících z: (1) vašich příspěvků; (2) používání služeb; (3) porušení těchto Právních podmínek; (4) jakékoli porušení vašich prohlášení a záruk uvedených v těchto Právních podmínkách; (5) vašeho porušení práv třetí strany, mimo jiné včetně práv duševního vlastnictví; nebo (6) jakékoli zjevné škodlivé jednání vůči jakémukoli jinému uživateli služeb, se kterým jste se prostřednictvím služeb spojili. Bez ohledu na výše uvedené si vyhrazujeme právo na vaše náklady převzít výhradní obhajobu a kontrolu nad jakoukoli záležitostí, za kterou jste povinni nás odškodnit, a souhlasíte s tím, že budete na vaše náklady spolupracovat při naší obhajobě takových nároků. Vynaložíme přiměřené úsilí, abychom vás informovali o jakémkoli takovém nároku, žalobě nebo řízení, které je předmětem tohoto odškodnění, jakmile se o něm dozvíme.</p>
+
+<h3 id="userdata">26. UŽIVATELSKÁ DATA</h3>
+
+<p>Budeme uchovávat určité údaje, které předáte do Služeb za účelem správy výkonu Služeb, jakož i údaje týkající se vašeho používání Služeb. Přestože provádíme pravidelné rutinní zálohování dat, nesete výhradní odpovědnost za všechna data, která přenášíte nebo která souvisejí s jakoukoli činností, kterou jste provedli pomocí služeb. Souhlasíte s tím, že vůči vám neneseme žádnou odpovědnost za jakoukoli ztrátu nebo poškození jakýchkoli takových údajů, a tímto se vzdáváte jakéhokoli práva na žalobu proti nám vyplývající z takové ztráty nebo poškození těchto údajů.</p>
+
+<h3 id="electronic">27. ELEKTRONICKÁ KOMUNIKACE, TRANSAKCE A PODPISY</h3>
+
+<p>Návštěva Služeb, zasílání e-mailů a vyplňování online formulářů představuje elektronickou komunikaci. Souhlasíte s přijímáním elektronické komunikace a souhlasíte s tím, že všechny smlouvy, oznámení, zveřejnění a další komunikace, které vám poskytujeme elektronicky, e-mailem a prostřednictvím služeb, splňují veškeré právní požadavky, aby taková komunikace byla písemná. TÍMTO SOUHLASÍTE S POUŽÍVÁNÍM ELEKTRONICKÝCH PODPISŮ, SMLUV, OBJEDNÁVEK A DALŠÍCH ZÁZNAMŮ A S ELEKTRONICKÝM DORUČOVÁNÍM OZNÁMENÍ, ZÁSAD A ZÁZNAMŮ O TRANSAKCÍCH ZAHÁJENÝCH NEBO DOKONČENÝCH NÁMI NEBO PROSTŘEDNICTVÍM SLUŽEB. Tímto se vzdáváte veškerých práv nebo požadavků podle jakýchkoli zákonů, předpisů, pravidel, nařízení nebo jiných zákonů v jakékoli jurisdikci, které vyžadují originální podpis nebo doručení nebo uchovávání neelektronických záznamů nebo platby nebo udělení kreditů jakýmkoli jiným než elektronickým způsobem.</p>
+
+<h3 id="california">28. UŽIVATELÉ A REZIDENTI KALIFORNIE</h3>
+
+<p>Pokud nebude jakákoli stížnost u nás uspokojivě vyřešena, můžete se písemně obrátit na oddělení pomoci při stížnostech divize spotřebitelských služeb kalifornského ministerstva spotřebitelských záležitostí na adrese 1625 North Market Blvd., Suite N 112, Sacramento, California 95834 nebo telefonicky na čísle (800) 952-5210 nebo (916) 445-1254.</p>
+
+<h3 id="misc">29. RŮZNÉ</h3>
+
+<p>Tyto právní podmínky a veškeré zásady nebo provozní pravidla, která jsme zveřejnili ve službách nebo ve vztahu ke službám, představují úplnou dohodu a porozumění mezi vámi a námi. Naše neuplatnění nebo vymáhání jakéhokoli práva nebo ustanovení těchto Právních podmínek neznamená zřeknutí se takového práva nebo ustanovení. Tyto právní podmínky platí v plném rozsahu povoleném zákonem. Některá nebo všechna naše práva a povinnosti můžeme kdykoli postoupit jiným osobám. Neneseme odpovědnost za jakoukoli ztrátu, škodu, zpoždění nebo nečinnost způsobenou jakoukoli příčinou mimo naši přiměřenou kontrolu. Pokud bude jakékoli ustanovení nebo část ustanovení těchto Právních podmínek shledáno nezákonným, neplatným nebo nevymahatelným, považuje se toto ustanovení nebo část ustanovení za oddělitelnou od těchto Právních podmínek a nemá vliv na platnost a vymahatelnost zbývajících ustanovení. Mezi vámi a námi nevzniká v důsledku těchto právních podmínek nebo používání služeb žádný společný podnik, partnerství, zaměstnanecký nebo agenturní vztah. Souhlasíte s tím, že tyto Právní podmínky nebudou vykládány proti nám na základě jejich vypracování. Tímto se vzdáváte veškeré obhajoby, kterou můžete mít na základě elektronické formy těchto Právních podmínek a neexistence podpisu stran těchto Právních podmínek k provedení těchto Právních podmínek.</p>
+
+<h3 id="contact">30. KONTAKTUJTE NÁS</h3>
+
+<p>Chcete-li vyřešit stížnost týkající se služeb nebo získat další informace týkající se používání služeb, kontaktujte nás na adrese:</p>
+
+<p> </p>
+<p></p>
+<p></p>
+
+</div>
+    </div>
+</div>
+
+
+
+    <script>
+      function toggleNav() {
+        var overlay = document.getElementById("overlay");
+        if (overlay.style.display === "block") {
+          closeNav();
+        } else {
+          openNav();
+        }
+      }
+
+      function openNav() {
+        document.getElementById("overlay").style.display = "block";
+      }
+      function closeNav() {
+        document.getElementById("overlay").style.display = "none";
+      }
+    </script>
+    <div class="footer">
+      <div class="container">
+        <div class="footer-box">
+          <div class="footer-link">
+            <a href="agreement.html"> Zásady ochrany osobních údajů</a>
+          </div>
+          <div class="footer-link">
+            <a href="terms-of-service.html"> Termíny a podmínky</a>
+          </div>
+          <div class="footer-link">
+            <a href="disclaimer.html"> Zřeknutí</a>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright</p>
+          <p>&#169;</p>
+          <p>2024</p>
+          <p>Morslayzin</p>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+
+     
+
+</body>
+</html>

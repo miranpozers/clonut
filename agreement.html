@@ -1,0 +1,1951 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Morslayzin | Zásady ochrany osobních údajů</title>
+    <meta property="og:title" content="Morslayzin | Zásady ochrany osobních údajů" />
+    <meta property="og:image" content="web-logo.svg" />
+    
+    <meta property="og:description" content="Morslayzin | Zásady ochrany osobních údajů" />
+    <meta name="description" content="Morslayzin | Zásady ochrany osobních údajů" />
+    <link rel="shortcut icon" href="web-logo.svg" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="assets/css/style.css"
+    />
+
+    <script src="assets/js/script.js"></script>
+
+
+    
+
+    <style>
+          body{
+            direction: ltr;
+            font-family: 'Ubuntu Condensed', sans-serif !important;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            letter-spacing: 1px;
+            line-height: 1.3;
+            position: relative;
+          }
+
+          :root{
+            --white: #fff;
+            --black: #080101;
+            --ch-1: #31af36;
+            --ch-2: #647f1b;
+            --ch-3: #31af6e;
+            --ch-4: #3198af;
+            --ch-5: #31adaf;
+            --hover: var(--ch-1);
+            --transition: 0.3s linear;
+            --box-color: #eff0ef;                                   --primary: #91d4a1;
+            --secondary: rgb(139, 194, 230);
+            --l-1: #afde92e0;
+            --l-2: #a9de92e0;
+            --l-3: #92dea4e0;
+            --l-4: #92c0dee0;
+            --l-5: #92d4dee0;
+            --third: var(--l-1);
+          }
+
+          button{
+            cursor: pointer;
+          }
+
+          a{
+              text-decoration: none;
+          }
+
+          p {
+            margin-bottom: 1rem;
+            font-size: 1rem;
+            line-height: 1.5;
+          }
+
+          ul, ol {
+            margin-bottom: 1rem;
+            padding-left: 2rem;
+          }
+
+          li {
+            margin-bottom: 0.5rem;
+          }
+
+          ul ul, ol ul, ul ol, ol ol {
+            margin-bottom: 0;
+          }
+
+          img{
+            width: 100%;
+            display: block;
+            box-sizing: border-box;
+          }
+
+          h5{
+            font-size: inherit;
+          }
+
+          .container {
+            max-width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+            padding-right: 15px;
+            padding-left: 15px;
+          }
+
+          .logo-box{
+            display: flex;
+            flex-direction: row;
+            gap: 4px;
+            align-items: center;
+            justify-content: center;
+          }
+
+          .logo-img{
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img{
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
+          }
+
+          #particles-js{
+            position: absolute;
+            z-index: 0;
+          }
+
+          .nav{
+            position: relative;
+            z-index: 1;
+            padding: 13px 0;
+          }
+
+          .nav-box{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+          }
+
+          .navbar-toggler {
+            background: none;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
+            transition: var(--transition);
+
+            &:hover,
+            &:focus{
+              color: var(--hover);
+            }
+
+            svg{
+              width: 30px;
+              height: 30px;
+            }
+          }
+
+          .navbar-nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+          }
+
+          .nav-item{
+            &:hover .nav-link,
+            &:focus .nav-link{
+              color: var(--hover);
+            }
+          }
+
+          .nav-link {
+            text-decoration: none;
+            color: var(--black);
+            transition: var(--transition);
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            padding: 13px 0;
+          }
+          .main-text {
+            color: #fff;
+          }
+          .overlay {
+            height: 100%;
+            width: 100%;
+            max-width: 480px;
+            position: fixed;
+            z-index: 998;
+            top: 0;
+            left: 0;
+            background-color: var(--box-color);
+            border: 1px solid #ccc;
+            overflow-x: hidden;
+            transition: 0.5s;
+            display: none;
+          }
+
+          .btn-close-wr{
+            display: flex;
+            justify-content: end;
+          }
+
+          .btn-close{
+            border: none;
+            outline: none;
+            color: var(--hover);
+            background-color: transparent;
+            transition: var(--transition);
+
+
+            svg{
+              width: 25px;
+              height: 25px;
+            }
+
+            &:hover,
+            &:focus{
+              opacity: 0.7;
+            }
+          }
+
+          .overlay-box{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding:  30px;
+          }
+
+          .logo-title{
+            text-transform: uppercase;
+            font-weight: 900;
+            font-size: 20px;
+            letter-spacing: 1.4px;
+            color: var(--black);
+            transition: var(--transition);
+          }
+
+          .logo-box:hover .logo-title,
+          .logo-box:focus .logo-title{
+            color: var(--hover);
+          }
+
+          .hero-box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap:  22px;
+          }
+
+          .hero{
+            position: relative;
+            z-index: 1;
+          }
+
+          .hero-box{
+            height: 100%;
+          }
+
+          .hero-title{
+            text-align: center;
+            font-weight: 500;
+          }
+
+          .row-2{
+            display: flex;
+            box-sizing: border-box;
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            gap: 18px;
+          }
+
+          .col-2{
+            width: 100%;
+            box-sizing: border-box;
+            padding: 18px;
+          }
+
+          .hero-img{
+            width: 100%;
+            margin: 0 auto;
+            height: 500px;
+
+            img{
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
+          }
+
+          .header{
+            position: relative;
+          }
+
+          .section{
+            padding: 117px 0;
+          }
+
+          .row-3{
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            flex-direction: column-reverse;
+            gap: 18px;
+            padding: 33px 0;
+          }
+
+          .col-3{
+            width: 100%;
+            box-sizing: border-box;
+            padding: 18px;
+         }
+
+          .title{
+            font-weight: 700;
+            font-size: 20px;
+            color: var(--hover);
+            margin-bottom: 22px;
+          }
+
+          .au-box{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: center;
+            gap: 18px;
+          }
+
+          .au-img-box{
+            display: flex;
+            justify-content: center;
+            height: 100%;
+          }
+
+          .au-img{
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+
+            img{
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
+          }
+
+          .au-section{
+            padding-top: 0;
+          }
+
+          .main-section{
+            position: relative;
+            z-index: 1;
+          }
+
+          .main-img{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            img{
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
+
+        .shape {
+          box-sizing: border-box;
+          overflow: hidden;
+          width: 100%;
+          height: 200px;
+          position: relative;
+          margin: 0 auto;
+          border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+          transition: all 1s ease-in-out;
+          z-index: 1;
+
+          &:hover,
+          &:focus{
+            border-radius: 50% 50% 40% 60% / 50% 40% 60% 50%;
+          }
+        }
+
+        .shape-wr{
+          float: none;
+          margin: 0 auto;
+          padding: 18px;
+        }
+
+
+        .pt-0{
+          padding-top: 0;
+        }
+
+        .price{
+          font-size: 20px;
+          color: var(--hover);
+          font-weight: 700;
+        }
+
+        .au{
+          background-image: -webkit-linear-gradient(90deg, var(--third) 0%, white 100%);
+          background-image: linear-gradient(90deg, var(--third) 0%, white 100%);
+        }
+
+        .author-img{
+          position: relative;
+          min-width: 25%;
+          padding: 10px;
+          background-color: var(--third);
+          border-radius: 175px 175px 0px 175px;
+          margin: 0 auto;
+
+          img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 175px 175px 0px 175px;
+          }
+
+          &::before{
+            position: absolute;
+            left: 3%;
+            top: 3%;
+            width: 94%;
+            height: 94%;
+            content: "";
+            border: 1px solid var(--white);
+            border-radius: 175px 175px 0px 175px;
+            background-color: transparent;
+            opacity: 1;
+          }
+        }
+
+        .about-author-box{
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          height: 100%;
+          flex-direction: column;
+          gap:  18px;
+        }
+
+        .author-name{
+          color: var(--hover);
+          font-weight: 700;
+        }
+
+        .author-img-box{
+          position: relative;
+        }
+
+        .related-img{
+          width: 100%;
+          height: 150px;
+          box-sizing: border-box;
+          overflow: hidden;
+
+          img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+          }
+
+          &:hover > img,
+          &:focus > img{
+            transform: scale(1.02);
+          }
+        }
+
+        .related-box{
+          display: flex;
+          flex-direction: column;
+          gap: 18px;
+        }
+
+        .related-title{
+          font-weight: 700;
+          text-align: center;
+        }
+
+        .com-col{
+          box-shadow: 0 0 40px rgba(8, 21, 66, 0.05);
+          background-image: linear-gradient(90deg, var(--third) 0%, white 100%);
+          border-radius: 15px;
+        }
+
+        .comment-box{
+          display: flex;
+          flex-direction: column;
+          gap: 18px;
+          justify-content: space-between;
+          height: 100%;
+        }
+
+        .comment-author-box{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 8px;
+        }
+
+        .comment-av{
+          width: 40px;
+          height: 40px;
+          overflow: hidden;
+          border-radius: 0%;
+          position: relative;
+
+          img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+
+          &::before{
+            position: absolute;
+            left: 3%;
+            top: 3%;
+            width: 90%;
+            height: 90%;
+            content: "";
+            border: 1px solid var(--white);
+            border-radius: 0%;
+            background-color: transparent;
+            opacity: 1;
+        }
+      }
+
+      .contact-list{
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        flex-direction: column-reverse;
+        gap:  18px;
+      }
+
+      .contact-item{
+        word-break: break-all;
+
+        a{
+          color: var(--black);
+          transition: var(--transition);
+        }
+
+        &:hover > a,
+        &:focus > a{
+          color: var(--hover);
+        }
+      }
+
+      .map{
+        width: 100%;
+        height: 300px;
+        border-radius: 15px;
+        overflow: hidden;
+
+        iframe{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .parent {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 4px;
+        grid-row-gap: 4px;
+      }
+
+      .div1 { grid-area: 1 / 1 / 2 / 2;
+        height: 150px;
+
+        .gallery-img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .div2 {
+        grid-area: 2 / 1 / 4 / 2;
+        height: 300px;
+
+        .gallery-img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .div3 {
+        grid-area: 1 / 2 / 3 / 4;
+        height: 300px;
+
+        .gallery-img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .div4 {
+        grid-area: 3 / 2 / 4 / 4;
+        height: 150px;
+
+        .gallery-img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .div5 {
+        grid-area: 1 / 4 / 2 / 5;
+        height: 150px;
+
+        .gallery-img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .div6 {
+        grid-area: 2 / 4 / 4 / 5;
+        height: 300px;
+
+        .gallery-img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .gallery-img{
+        overflow: hidden;
+
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: var(--transition);
+        }
+
+        &:hover > img,
+        &:focus > img{
+          transform: scale(1.02);
+        }
+      }
+
+      .form{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        height: 100%;
+        justify-content: center;
+        gap: 18px;
+      }
+
+      .input-custom_element_section,
+      .textarea-custom_element_section{
+        width: 100%;
+        padding: 10px 16px;
+        border: 1px solid var(--third);
+        border-radius: 15px;
+        box-sizing: border-box;
+      }
+
+      .video-box{
+        box-sizing: border-box;
+        overflow: hidden;
+        width: 100%;
+        height: 200px;
+        position: relative;
+        margin: 0 auto;
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        transition: all 1s ease-in-out;
+        z-index: 1;
+
+        &:hover,
+        &:focus{
+          border-radius: 50% 50% 40% 60% / 50% 40% 60% 50%;
+        }
+      }
+
+      .video-player{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .privacy{
+        color: var(--black);
+        transition: var(--transition);
+
+        &:hover,
+        &:focus{
+          color: var(--hover);
+        }
+      }
+
+      .footer{
+        background-color: var(--black);
+        color: var(--hover);
+        padding: 33px;
+      }
+
+      .footer-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 18px;
+      }
+
+      .footer-link{
+        text-align: center;
+
+        a{
+          color: var(--white);
+          transition: var(--transition);
+          text-align: center;
+        }
+
+        &:hover > a,
+        &:focus > a{
+          color: var(--hover);
+        }
+      }
+
+      .copyright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 18px;
+        flex-direction: column;
+        color: #ffffffc4;
+        gap: 5px;
+      }
+
+      .privacy-content{
+        word-break: break-all;
+        overflow: hidden;
+      }
+
+        @media (min-width: 420px) {
+          .overlay {
+            width: 420px;
+          }
+        }
+
+        @media (min-width: 576px) {
+          .container {
+            max-width: 540px;
+          }
+
+          .shape {
+            width: 400px;
+            height: 400px;
+          }
+
+          .author-img{
+            width: 400px;
+          }
+
+          .video-box{
+            height: 400px;
+          }
+
+          .copyright{
+            flex-direction: row;
+          }
+        }
+
+        @media (min-width: 768px){
+          .container {
+            max-width: 720px;
+          }
+
+          .row-3,
+          .row-2{
+            flex-direction: row-reverse;
+          }
+
+          .col-2{
+            width: calc(50% - 18px);
+          }
+
+          .col-3{
+            width: calc((100% / 3) - 18px);
+          }
+
+          .shape {
+            width: 500px;
+            height: 500px;
+          }
+
+          .footer-box{
+            flex-direction: row-reverse;
+          }
+
+          .logo-title{
+            font-size: 26px;
+          }
+        }
+
+        @media (max-width: 991px){
+
+        }
+
+        @media (min-width: 992px){
+          .container {
+            max-width: 960px;
+          }
+
+          .shape-wr{
+            float:  right;
+          }
+        }
+
+        @media (min-width: 1200px){
+          .container {
+            max-width: 1140px;
+          }
+
+          .shape {
+            width: 600px;
+            height: 600px;
+          }
+        }
+
+        .button-1 {
+          position: relative;
+          padding: 15px;
+          text-align: center;
+          border-radius: 45px;
+          border: none;
+          background-color: rgb(151, 95, 255);
+          color: white;
+          box-shadow: 0px 10px 10px rgb(210, 187, 253) inset,
+          0px 5px 10px rgba(5, 5, 5, 0.212),
+          0px -10px 10px rgb(124, 54, 255) inset;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .button-1::before {
+          width: 70%;
+          height: 2px;
+          position: absolute;
+          background-color: rgba(250, 250, 250, 0.678);
+          content: "";
+          filter: blur(1px);
+          top: 7px;
+          border-radius: 50%;
+        }
+
+        .button-1::after {
+          width: 70%;
+          height: 2px;
+          position: absolute;
+          background-color: rgba(250, 250, 250, 0.137);
+          content: "";
+          filter: blur(1px);
+          bottom: 7px;
+          border-radius: 50%;
+        }
+
+        .button-1:hover {
+          animation: jello-horizontal 0.9s both;
+        }
+
+        @keyframes jello-horizontal {
+          0% {
+            transform: scale3d(1, 1, 1);
+          }
+
+          30% {
+            transform: scale3d(1.25, 0.75, 1);
+          }
+
+          40% {
+            transform: scale3d(0.75, 1.25, 1);
+          }
+
+          50% {
+            transform: scale3d(1.15, 0.85, 1);
+          }
+
+          65% {
+            transform: scale3d(0.95, 1.05, 1);
+          }
+
+          75% {
+            transform: scale3d(1.05, 0.95, 1);
+          }
+
+          100% {
+            transform: scale3d(1, 1, 1);
+          }
+        }
+
+        .button-2 {
+          padding: 0.6em 1em;
+          border: 4px solid var(--hover);
+          transition: ease-in-out 0.3s;
+          background-color: transparent;
+          color: var(--hover);
+          font-weight: bolder;
+          font-size: 16px;
+          display: inline-block;
+          text-align: center;
+          }
+
+          .button-2:hover {
+          transform: scale(1.02) rotate(5deg);
+          background-color: var(--hover);
+          color: white;
+          }
+
+        .button-3 {
+          --bg: #000;
+          --hover-bg: #ff90e8;
+          --hover-text: #000;
+          color: #fff;
+          cursor: pointer;
+          border: 1px solid var(--bg);
+          border-radius: 4px;
+          padding: 0.8em 2em;
+          background: var(--bg);
+          transition: 0.2s;
+          display: inline-block;
+          text-align: center;
+        }
+
+        .button-3:hover {
+          color: var(--hover-text);
+          transform: translate(-0.25rem, -0.25rem);
+          background: var(--hover-bg);
+          box-shadow: 0.25rem 0.25rem var(--bg);
+        }
+
+        .button-3:active {
+          transform: translate(0);
+          box-shadow: none;
+        }
+
+        .button-4 {
+          padding-left: 33px;
+          padding-right: 33px;
+          padding-bottom: 16px;
+          padding-top: 16px;
+          border-radius: 9px;
+          background: #d5f365;
+          border: none;
+          font-family: inherit;
+          text-align: center;
+          cursor: pointer;
+          transition: 0.4s;
+          color: var(--black);
+          display: inline-block;
+          text-align: center;
+          }
+
+          .button-4:hover {
+          box-shadow: 7px 5px 56px -14px #C3D900;
+          }
+
+          .button-4:active {
+          transform: scale(0.97);
+          box-shadow: 7px 5px 56px -10px #C3D900;
+          }
+
+          .button-5 {
+            width: fit-content;
+            padding: 12px 24px;
+            border-radius: 100px;
+            border: none;
+            box-shadow: inset 0px 22px 20px 10px rgb(0, 0, 0);
+            font-weight: 800;
+            color: rgb(255, 191, 106);
+            letter-spacing: .1rem;
+            transition: all 0.51s ease-in-out;
+            display: inline-block;
+            text-align: center;
+          }
+
+          .button-5:hover {
+            transform: translateY(5px);
+            box-shadow: inset 1px -11px 25px 10px rgb(91, 88, 240);
+          }
+    </style>
+    
+  </head>
+
+  <body>
+    <div class="header">
+      <div id="particles-js"></div>
+
+      <div class="nav">
+        <div class="container">
+          <div class="nav-box">
+            <a href="./" class="logo-box">
+              <div class="logo-img">
+                <img src="web-logo.svg" alt="" />
+              </div>
+              <div class="logo-title">Morslayzin</div>
+            </a>
+            <button class="navbar-toggler" onclick="toggleNav()">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-list"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="overlay" id="overlay">
+        <div class="overlay-box">
+          <div class="btn-close-wr">
+            <button class="btn-close" onclick="closeNav()">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-x-circle"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+                />
+                <path
+                  d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./#section1">O mně</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="./#section2">Zajímavé poznámky</a>
+              </li>
+               
+              <li class="nav-item">
+                <a class="nav-link" href="./#section3">Komentáře</a>
+              </li>
+                 
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero">
+        <div class="container">
+          <div class="row-2">
+            <div class="col-2">
+              <div class="hero-box">
+                <div class="hero-title">Vítejte na našich stránkách! Jsme tak rádi, že jste tady. Naše stránky obsahují nejnovější zprávy a články o řadě témat, které vás budou informovat. Doufáme, že se zde skvěle pobavíte a dostanete se do dobré nálady.</div>
+                
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="hero-img">
+                <img src="media/site_vector_art_2024-10-30_21-210.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+<div class="section">
+    <div class="container">
+        <div class="title">Morslayzin | Zásady ochrany osobních údajů</div>
+        <div class="privacy-content"><p>Toto oznámení o ochraně osobních údajů pro Webu ("společnost", "my", "nás" nebo "naše") popisuje, jak a proč můžeme shromažďovat, ukládat, používat a/nebo sdílet ("zpracovávat") vaše informace, když používáte naše služby ("služby"), například když:</p>
+
+<ul>
+<li>Navštivte naše webové stránky na adrese  nebo jakoukoli naši webovou stránku, která odkazuje na toto oznámení o ochraně osobních údajů</li>
+<li>Spolupracovat s námi jinými souvisejícími způsoby, včetně prodeje, marketingu nebo událostí</li>
+</ul>Máte otázky nebo obavy? Přečtení tohoto oznámení o ochraně osobních údajů vám pomůže pochopit vaše práva a volby týkající se ochrany osobních údajů. Pokud nesouhlasíte s našimi zásadami a postupy, nepoužívejte prosím naše služby. Pokud máte další dotazy nebo obavy, kontaktujte nás na adrese .<h3>SHRNUTÍ KLÍČOVÝCH BODŮ</h3>
+
+<p><strong><em>Toto shrnutí obsahuje klíčové body z našeho oznámení o ochraně osobních údajů, ale další podrobnosti o kterémkoli z těchto témat můžete zjistit kliknutím na odkaz za každým klíčovým bodem nebo pomocí našeho obsahu níže a najít sekci, kterou hledáte.</em></strong></p>
+
+<p><strong>Jaké osobní údaje zpracováváme?</strong> Když navštívíte, používáte nebo procházíte naše služby, můžeme zpracovávat osobní údaje v závislosti na tom, jak se službami komunikujete Webu , na volbách, které provedete, a na produktech a funkcích, které používáte. Přečtěte si další informace o <a href="#personalinfo">osobních údajích, které nám sdělíte</a>.</p>
+
+<p><strong>Zpracováváme nějaké citlivé osobní údaje?</strong> Citlivé osobní údaje můžeme zpracovávat, pokud je to nutné, s vaším souhlasem nebo jinak povoleným platnými zákony. Přečtěte si další informace o <a href="#sensitiveinfo">citlivých informacích, které zpracováváme</a>.</p>
+
+<p><strong>Dostáváme nějaké informace od třetích stran?</strong> Můžeme získávat informace z veřejných databází, marketingových partnerů, platforem sociálních médií a dalších externích zdrojů. Přečtěte si další informace <a href="#othersources">o informacích shromážděných z jiných zdrojů</a>.</p>
+
+<p><strong>Jak zpracováváme vaše informace?</strong> Vaše informace zpracováváme, abychom mohli poskytovat, zlepšovat a spravovat naše služby, komunikovat s vámi, za účelem zabezpečení a prevence podvodů a dodržování zákonů. Vaše informace můžeme také zpracovávat pro jiné účely s vaším souhlasem. Vaše údaje zpracováváme pouze tehdy, pokud k tomu máme platný právní důvod. Zjistěte více o <a href="#infouse">tom, jak zpracováváme vaše informace.</a></p>
+
+<p><strong>V jakých situacích a se kterými stranami sdílíme osobní údaje?</strong> Můžeme sdílet informace v konkrétních situacích a s konkrétními třetími stranami. Zjistěte více o <a href="#whoshare">tom, kdy a s kým sdílíme vaše osobní údaje</a>.</p>
+
+<p><strong>Jak uchováváme vaše informace v bezpečí?</strong> Máme zavedeny organizační a technické procesy a postupy na ochranu vašich osobních údajů. U žádného elektronického přenosu přes internet nebo technologie ukládání informací však nelze zaručit 100% bezpečnost, takže nemůžeme slíbit ani zaručit, že hackeři, počítačoví zločinci nebo jiné neoprávněné třetí strany nebudou schopni překonat naši bezpečnost a nesprávně shromažďovat, přistupovat, krást nebo upravovat vaše informace. Zjistěte více o tom <a href="#infosafe">, jak uchováváme vaše informace v bezpečí</a>.</p>
+
+<p><strong>Jaká jsou vaše práva?</strong> V závislosti na tom, kde se geograficky nacházíte, může platné zákony o ochraně osobních údajů znamenat, že máte určitá práva týkající se vašich osobních údajů. Přečtěte si další informace o <a href="#privacyrights">svých právech na ochranu soukromí</a>.</p>
+
+<p><strong>Jak svá práva uplatňujete?</strong> Nejjednodušší způsob, jak uplatnit svá práva, je navštívit  nebo nás kontaktovat. Každou žádost zvážíme a budeme na ni jednat v souladu s platnými zákony o ochraně osobních údajů.</p>
+
+<p>Chcete se dozvědět více o tom, co dělá s informacemi, Webu které shromažďujeme? Přečtěte si celé oznámení o ochraně osobních údajů.</p>
+
+<h3>OBSAH</h3>
+
+<a style="display: block; margin: 5px 0px;" href="#infocollect">1. JAKÉ INFORMACE SHROMAŽĎUJEME?</a>
+<a style="display: block; margin: 5px 0px;" href="#infouse">2. JAK ZPRACOVÁVÁME VAŠE INFORMACE?</a>
+<a style="display: block; margin: 5px 0px;" href="#legalbases">3. O JAKÉ PRÁVNÍ ZÁKLADY SE OPÍRÁME PŘI ZPRACOVÁNÍ VAŠICH OSOBNÍCH ÚDAJŮ?</a>
+<a style="display: block; margin: 5px 0px;" href="#whoshare">4. KDY A S KÝM SDÍLÍME VAŠE OSOBNÍ ÚDAJE?</a>
+<a style="display: block; margin: 5px 0px;" href="#3pwebsites">5. JAKÝ JE NÁŠ POSTOJ K WEBOVÝM STRÁNKÁM TŘETÍCH STRAN?</a>
+<a style="display: block; margin: 5px 0px;" href="#cookies">6. POUŽÍVÁME COOKIES A DALŠÍ SLEDOVACÍ TECHNOLOGIE?</a>
+<a style="display: block; margin: 5px 0px;" href="#sociallogins">7. JAK NAKLÁDÁME S VAŠIMI PŘIHLAŠOVACÍMI ÚDAJI NA SOCIÁLNÍCH SÍTÍCH?</a>
+<a style="display: block; margin: 5px 0px;" href="#inforetain">8. JAK DLOUHO UCHOVÁVÁME VAŠE ÚDAJE?</a>
+<a style="display: block; margin: 5px 0px;" href="#infosafe">9. JAK UCHOVÁVÁME VAŠE INFORMACE V BEZPEČÍ?</a>
+<a style="display: block; margin: 5px 0px;" href="#privacyrights">10. JAKÁ JSOU VAŠE PRÁVA NA OCHRANU OSOBNÍCH ÚDAJŮ?</a>
+<a style="display: block; margin: 5px 0px;" href="#DNT">11. OVLÁDACÍ PRVKY PRO FUNKCE DO-NOT-TRACK</a>
+<a style="display: block; margin: 5px 0px;" href="#caresidents">12. MAJÍ OBYVATELÉ KALIFORNIE ZVLÁŠTNÍ PRÁVA NA OCHRANU SOUKROMÍ?</a>
+<a style="display: block; margin: 5px 0px;" href="#virginia">13. MAJÍ OBYVATELÉ VIRGINIE ZVLÁŠTNÍ PRÁVA NA OCHRANU SOUKROMÍ?</a>
+<a style="display: block; margin: 5px 0px;" href="#policyupdates">14. AKTUALIZUJEME TOTO OZNÁMENÍ?</a>
+<a style="display: block; margin: 5px 0px;" href="#contact">15. JAK NÁS MŮŽETE KONTAKTOVAT OHLEDNĚ TOHOTO OZNÁMENÍ?</a>
+<a style="display: block; margin: 5px 0px;" href="#request">16. JAK MŮŽETE ZKONTROLOVAT, AKTUALIZOVAT NEBO ODSTRANIT ÚDAJE, KTERÉ OD VÁS SHROMAŽĎUJEME?</a>
+
+<h3 id="infocollect">1. JAKÉ INFORMACE SHROMAŽĎUJEME?</h3>
+
+<p id="personalinfo"><strong>Osobní údaje, které nám sdělíte</strong></p>
+
+<p><em><strong>Zkrátka:</strong> Shromažďujeme osobní údaje, které nám poskytnete.</em></p>
+
+<p>Shromažďujeme osobní údaje, které nám dobrovolně poskytnete, když se zaregistrujete do Služeb, vyjádříte zájem o získání informací o nás nebo našich produktech a Službách, když se účastníte aktivit v rámci Služeb nebo jinak, když nás kontaktujete.</p>
+
+<p><strong>Osobní údaje, které jste poskytli.</strong> Osobní údaje, které shromažďujeme, závisí na kontextu vašich interakcí s námi a službami, na volbách, které provedete, a na produktech a funkcích, které používáte. Osobní údaje, které shromažďujeme, mohou zahrnovat následující:</p>
+<ul>
+<li>jména</li>
+<li>telefonní čísla</li>
+<li>poštovní adresy</li>
+<li>e-mailové adresy</li>
+<li>Uživatelská jména</li>
+<li>kontaktní nebo autentizační údaje</li>
+</ul>
+<p id="sensitiveinfo"><strong>Citlivé informace.</strong> V případě potřeby, s vaším souhlasem nebo v souladu s platnými zákony zpracováváme následující kategorie citlivých informací:</p>
+<p>Přihlašovací údaje k sociálním médiím. Můžeme vám poskytnout možnost zaregistrovat se u nás pomocí vašich stávajících údajů o účtu sociálních médií, jako je váš účet na Facebooku, Twitteru nebo jiném účtu sociálních médií. Pokud se rozhodnete zaregistrovat tímto způsobem, budeme shromažďovat informace popsané v části nazvané " JAK NAKLÁDÁME S VAŠIMI PŘIHLAŠOVACÍMI ÚDAJI DO SOCIÁLNÍCH SÍTÍ? " níže.</p>
+
+<p>Veškeré osobní údaje, které nám poskytnete, musí být pravdivé, úplné a přesné a musíte nás informovat o jakýchkoli změnách těchto osobních údajů.<p><strong>Automaticky shromažďované informace</strong></p>
+
+<p><em><strong>Zkrátka:</strong> Některé informace – například vaše adresa internetového protokolu (IP) a/nebo vlastnosti prohlížeče a zařízení – jsou shromažďovány automaticky, když navštívíte naše služby.</em></p>
+
+<p>Automaticky shromažďujeme určité informace, když navštívíte, používáte nebo procházíte služby. Tyto informace neodhalují vaši konkrétní identitu (jako je vaše jméno nebo kontaktní údaje), ale mohou zahrnovat informace o zařízení a používání, jako je vaše IP adresa, vlastnosti prohlížeče a zařízení, operační systém, jazykové preference, odkazující adresy URL, název zařízení, země, poloha, informace o tom, jak a kdy používáte naše služby, a další technické informace. Tyto informace jsou primárně potřebné k zajištění bezpečnosti a provozu našich služeb a pro naše interní analytické a reportovací účely.</p>
+
+<p>Stejně jako mnoho jiných firem shromažďujeme informace také prostřednictvím souborů cookie a podobných technologií.</p>
+
+<p>Informace, které shromažďujeme, zahrnují:<ul>
+    <li>Protokolování a údaje o využití. Protokolové a uživatelské údaje jsou informace o službách, diagnostice, používání a výkonu, které naše servery automaticky shromažďují při přístupu k našim službám nebo jejich používání a které zaznamenáváme do souborů protokolu. V závislosti na tom, jak s námi komunikujete, mohou tato data protokolu zahrnovat vaši IP adresu, informace o zařízení, typ prohlížeče a nastavení a informace o vaší aktivitě ve službách (například datová/časová razítka spojená s vaším používáním, zobrazené stránky a soubory, vyhledávání a další akce, které provádíte, například funkce, které používáte), informace o událostech zařízení (například aktivita systému,  Zprávy o chybách (někdy nazývané "výpisy stavu systému") a nastavení hardwaru).</li>
+</ul>
+
+
+<p id="othersources"><strong>Informace shromážděné z jiných zdrojů</strong></p>
+
+<p><em><strong>Zkrátka:</strong> Můžeme shromažďovat omezené údaje z veřejných databází, marketingových partnerů, platforem sociálních médií a dalších externích zdrojů.</em></p>
+
+<p>Abychom zlepšili naši schopnost poskytovat vám relevantní marketing, nabídky a služby a aktualizovat naše záznamy, můžeme o vás získávat informace z jiných zdrojů, jako jsou veřejné databáze, společní marketingoví partneři, přidružené programy, poskytovatelé dat, platformy sociálních médií a od jiných třetích stran. Tyto informace zahrnují poštovní adresy, názvy pracovních pozic, e-mailové adresy, telefonní čísla, údaje o záměru (nebo údaje o chování uživatelů), adresy internetového protokolu (IP), profily sociálních médií, adresy URL sociálních médií a vlastní profily pro účely cílené reklamy a propagace událostí. Pokud s námi komunikujete na platformě sociálních médií pomocí svého účtu na sociálních médiích (např. Facebook nebo Twitter), obdržíme o vás osobní údaje, jako je vaše jméno, e-mailová adresa a pohlaví. Veškeré osobní údaje, které shromažďujeme z vašeho účtu sociálních médií, závisí na nastavení ochrany osobních údajů vašeho účtu na sociální síti.</p>
+
+<h3 id="infouse">2. JAK ZPRACOVÁVÁME VAŠE INFORMACE?</h3>
+
+<p><em><strong>Zkrátka:</strong> Vaše informace zpracováváme, abychom mohli poskytovat, zlepšovat a spravovat naše služby, komunikovat s vámi, za účelem zabezpečení a prevence podvodů a dodržování zákonů. Vaše informace můžeme také zpracovávat pro jiné účely s vaším souhlasem.</em></p>
+
+<p>Vaše osobní údaje zpracováváme z různých důvodů, v závislosti na tom, jak interagujete s našimi službami, včetně:</p>
+<ul>
+    <li>Usnadnění vytváření a ověřování účtů a další správa uživatelských účtů. Vaše údaje můžeme zpracovávat, abyste si mohli vytvořit a přihlásit se ke svému účtu a udržovat svůj účet v provozuschopném stavu.</li>
+    <li>Poskytování a usnadňování poskytování služeb uživateli. Vaše údaje můžeme zpracovávat, abychom vám mohli poskytnout požadovanou službu.</li>
+    <li>Reakce na dotazy uživatelů / nabízení podpory uživatelům. Vaše údaje můžeme zpracovávat, abychom mohli reagovat na vaše dotazy a vyřešit případné problémy, které byste mohli mít s požadovanou službou.</li>
+    <li>K zasílání administrativních informací. Vaše údaje můžeme zpracovávat, abychom vám mohli zasílat podrobnosti o našich produktech a službách, změnách našich podmínek a zásad a další podobné informace.</li>
+    <li>K plnění a správě vašich objednávek. Vaše údaje můžeme zpracovávat, abychom mohli plnit a spravovat vaše objednávky, platby, vrácení zboží a výměny provedené prostřednictvím služeb.</li>
+    <li>Povolení komunikace mezi uživateli. Vaše údaje můžeme zpracovávat, pokud se rozhodnete použít některou z našich nabídek, které umožňují komunikaci s jiným uživatelem.</li>
+    <li>Abychom vám mohli poskytovat cílenou reklamu. Vaše informace můžeme zpracovávat za účelem vývoje a zobrazování personalizovaného obsahu a reklamy přizpůsobené vašim zájmům, poloze a dalším.</li>
+    <li>K ochraně našich služeb. Vaše informace můžeme zpracovávat v rámci našeho úsilí o zajištění bezpečnosti a zabezpečení našich služeb, včetně monitorování a prevence podvodů.</li>
+    <li>K identifikaci trendů používání. Můžeme zpracovávat informace o tom, jak používáte naše služby, abychom lépe porozuměli tomu, jak jsou používány, abychom je mohli vylepšit.</li>
+    <li>K určení efektivity našich marketingových a propagačních kampaní. Vaše informace můžeme zpracovávat, abychom lépe porozuměli tomu, jak poskytovat marketingové a propagační kampaně, které jsou pro vás nejrelevantnější.</li>
+    <li>Zachránit nebo chránit životně důležité zájmy jednotlivce. Vaše informace můžeme zpracovávat, pokud je to nezbytné k uložení nebo ochraně životně důležitých zájmů jednotlivce, například k zabránění škodám.</li>
+</ul>
+
+
+<h3 id="legalbases">3. O JAKÉ PRÁVNÍ ZÁKLADY SE OPÍRÁME PŘI ZPRACOVÁNÍ VAŠICH INFORMACÍ?</h3>
+
+<p><em><strong>Zkrátka:</strong> Vaše osobní údaje zpracováváme pouze tehdy, když se domníváme, že je to nezbytné a máme k tomu platný právní důvod (tj. právní základ), například s vaším souhlasem, abychom vyhověli zákonům, poskytli vám služby pro uzavření nebo splnění našich smluvních závazků, chránili vaše práva nebo plnili naše oprávněné obchodní zájmy.</em></p>
+
+<p>Pokud se nacházíte v EU nebo ve Spojeném království, vztahuje se na vás tato část.</p>
+
+<p>Obecné nařízení o ochraně osobních údajů (GDPR) a britské GDPR vyžadují, abychom vysvětlili platné právní základy, o které se opíráme při zpracování vašich osobních údajů. Proto se můžeme při zpracování vašich osobních údajů opírat o následující právní základy:</p>
+<ul>
+    <li>Souhlas. Vaše údaje můžeme zpracovávat, pokud jste nám dali souhlas (tj. souhlas) k použití vašich osobních údajů pro konkrétní účel. Svůj souhlas můžete kdykoli odvolat. Přečtěte si další informace o <a href="#withdrawconsent">odvolání souhlasu</a>.</li>
+    <li>Plnění smlouvy. Vaše osobní údaje můžeme zpracovávat, pokud se domníváme, že je to nezbytné pro splnění našich smluvních závazků vůči vám, včetně poskytování našich služeb, nebo na vaši žádost před uzavřením smlouvy s vámi.</li>
+    <li>Oprávněné zájmy. Vaše údaje můžeme zpracovávat, pokud se domníváme, že je to přiměřeně nezbytné k dosažení našich oprávněných obchodních zájmů a tyto zájmy nepřevažují nad vašimi zájmy a základními právy a svobodami. Vaše osobní údaje můžeme například zpracovávat pro některé z popsaných účelů, abychom:</li>
+    <ul>
+        <li>Vývoj a zobrazování personalizovaného a relevantního reklamního obsahu pro naše uživatele</li>
+        <li>Analýza toho, jak jsou naše služby využívány, abychom je mohli vylepšit, abychom zapojili a udrželi uživatele</li>
+        <li>Podpořte naše marketingové aktivity</li>
+        <li>Diagnostika problémů a/nebo prevence podvodných aktivit</li>
+    </ul>
+    <li>Právní povinnosti. Vaše informace můžeme zpracovávat, pokud se domníváme, že je to nezbytné pro splnění našich zákonných povinností, jako je spolupráce s orgánem činným v trestním řízení nebo regulační agenturou, výkon nebo obrana našich zákonných práv nebo zveřejnění vašich informací jako důkaz v soudním sporu, do kterého jsme zapojeni.</li>
+    <li>Životní zájmy. Vaše informace můžeme zpracovávat, pokud se domníváme, že je to nezbytné k ochraně vašich životně důležitých zájmů nebo životně důležitých zájmů třetí strany, jako jsou situace zahrnující potenciální ohrožení bezpečnosti jakékoli osoby.</li>
+</ul>
+
+
+<p>Pokud se nacházíte v Kanadě, vztahuje se na vás tato část.</p>
+
+<p>Vaše údaje můžeme zpracovávat, pokud jste nám udělili konkrétní povolení (tj. výslovný souhlas) k použití vašich osobních údajů pro konkrétní účel nebo v situacích, kdy lze váš souhlas odvodit (tj. implicitní souhlas). <a href="#withdrawconsent">Svůj souhlas</a> můžete kdykoli odvolat.</p>
+
+<p>V některých výjimečných případech můžeme být podle platných zákonů legálně oprávněni zpracovávat vaše informace bez vašeho souhlasu, včetně například:</p>
+<ul>
+    <li>Pokud je shromažďování zjevně v zájmu fyzické osoby a souhlas nelze získat včas</li>
+    <li>Pro vyšetřování a odhalování a prevenci podvodů</li>
+    <li>Pro obchodní transakce za předpokladu splnění určitých podmínek</li>
+    <li>Pokud je obsažena ve svědecké výpovědi a sbírka je nezbytná k posouzení, zpracování nebo vyřízení pojistné události</li>
+    <li>Pro identifikaci zraněných, nemocných nebo zemřelých osob a komunikaci s nejbližšími příbuznými</li>
+    <li>Pokud máme rozumné důvody se domnívat, že jednotlivec byl, je nebo může být obětí finančního zneužívání</li>
+    <li>Pokud lze důvodně očekávat, že shromažďování a používání se souhlasem by ohrozilo dostupnost nebo přesnost informací, a shromažďování je přiměřené pro účely související s vyšetřováním porušení dohody nebo porušení zákonů Kanady nebo provincie</li>
+    <li>Je-li zveřejnění vyžadováno v souladu s předvoláním, příkazem, soudním příkazem nebo pravidly soudu týkajícími se předkládání záznamů</li>
+    <li>Pokud byly vytvořeny jednotlivcem v rámci jeho zaměstnání, podnikání nebo povolání a shromažďování je v souladu s účely, pro které byly informace vytvořeny</li>
+    <li>Pokud je sbírka určena výhradně pro novinářské, umělecké nebo literární účely</li>
+    <li>Pokud jsou informace veřejně dostupné a jsou stanoveny předpisy</li>
+</ul>
+
+<h3 id="whoshare">4. KDY A S KÝM SDÍLÍME VAŠE OSOBNÍ ÚDAJE?</h3>
+
+<p><em><strong>Zkrátka:</strong> Informace můžeme sdílet v konkrétních situacích popsaných v této části a/nebo s následujícími třetími stranami.</em></p>
+
+<p>Vaše osobní údaje možná budeme muset sdílet v následujících situacích:</p>
+<ul>
+    <li><strong>Obchodní převody.</strong> Vaše informace můžeme sdílet nebo převádět v souvislosti s jakoukoli fúzí, prodejem aktiv společnosti, financováním nebo akvizicí celého našeho podnikání nebo jeho části jiné společnosti.</li>
+    <li><strong>Pobočky.</strong> Vaše informace můžeme sdílet s našimi přidruženými společnostmi a v takovém případě budeme požadovat, aby tyto přidružené společnosti dodržovaly toto oznámení o ochraně osobních údajů. Přidružené společnosti zahrnují naši mateřskou společnost a všechny dceřiné společnosti, partnery ve společných podnicích nebo jiné společnosti, které ovládáme nebo které jsou s námi pod společnou kontrolou.</li>
+    <li><strong>Obchodní partneři.</strong> Vaše údaje můžeme sdílet s našimi obchodními partnery, abychom vám mohli nabídnout určité produkty, služby nebo propagační akce.</li>
+    <li><strong>Ostatní uživatelé.</strong> Když sdílíte osobní údaje nebo jinak interagujete s veřejnými oblastmi služeb, mohou být tyto osobní údaje zobrazeny všemi uživateli a mohou být veřejně zpřístupněny mimo služby na dobu neurčitou. Pokud komunikujete s ostatními uživateli našich služeb a zaregistrujete se k našim službám prostřednictvím sociální sítě (jako je Facebook), vaše kontakty na sociální síti uvidí vaše jméno, profilovou fotografii a popisy vaší aktivity. Podobně budou moci ostatní uživatelé zobrazit popisy vaší aktivity, komunikovat s vámi v rámci našich služeb a zobrazit váš profil.</li>
+</ul>
+
+<h3 id="3pwebsites">5. JAKÝ JE NÁŠ POSTOJ K WEBOVÝM STRÁNKÁM TŘETÍCH STRAN?</h3>
+
+<p><em><strong>Zkrátka:</strong> Nejsme zodpovědní za bezpečnost jakýchkoli informací, které sdílíte s třetími stranami, na které můžeme odkazovat nebo které inzerují v našich službách, ale nejsou přidruženy k našim službám.</em></p>
+
+<p>Služby mohou odkazovat na webové stránky, online služby nebo mobilní aplikace třetích stran a/nebo obsahovat reklamy třetích stran, které s námi nejsou spojeny a které mohou odkazovat na jiné webové stránky, služby nebo aplikace. V souladu s tím neposkytujeme žádnou záruku týkající se těchto třetích stran a neneseme odpovědnost za žádné ztráty nebo škody způsobené používáním takových webových stránek, služeb nebo aplikací třetích stran. Zahrnutí odkazu na webové stránky, službu nebo aplikaci třetí strany neznamená, že je schvalujeme. Nemůžeme zaručit bezpečnost a soukromí údajů, které poskytnete třetím stranám. Toto oznámení o ochraně osobních údajů se nevztahuje na žádné údaje shromážděné třetími stranami. Nejsme zodpovědní za obsah nebo postupy a zásady ochrany osobních údajů a zabezpečení třetích stran, včetně jiných webových stránek, služeb nebo aplikací, které mohou být propojeny se službami nebo ze služeb. Měli byste si přečíst zásady těchto třetích stran a kontaktovat je přímo, aby odpověděly na vaše dotazy.</p>
+
+<h3 id="cookies">6. POUŽÍVÁME COOKIES A DALŠÍ SLEDOVACÍ TECHNOLOGIE?</h3>
+
+<p><em><strong>Zkrátka:</strong> Můžeme používat soubory cookie a další sledovací technologie ke shromažďování a ukládání vašich informací.</em></p>
+
+<p>Můžeme používat soubory cookie a podobné sledovací technologie (jako jsou webové majáky a pixely) pro přístup nebo ukládání informací. Konkrétní informace o tom, jak tyto technologie používáme a jak můžete určité soubory cookie odmítnout, jsou uvedeny v našem Oznámení o souborech cookie.</p>
+
+<h3 id="sociallogins">7. JAK NAKLÁDÁME S VAŠIMI PŘIHLAŠOVACÍMI ÚDAJI NA SOCIÁLNÍCH SÍTÍCH?</h3>
+
+<p><em><strong>Zkrátka:</strong> Pokud se rozhodnete zaregistrovat nebo přihlásit k našim službám pomocí účtu na sociálních médiích, můžeme mít přístup k určitým informacím o vás.</em></p>
+
+<p>Naše Služby vám nabízejí možnost zaregistrovat se a přihlásit se pomocí údajů o účtu sociálních médií třetích stran (jako jsou přihlašovací údaje k Facebooku nebo Twitteru). Pokud se tak rozhodnete, obdržíme určité profilové informace o vás od poskytovatele sociálních médií. Profilové informace, které obdržíme, se mohou lišit v závislosti na příslušném poskytovateli sociálních médií, ale často budou zahrnovat vaše jméno, e-mailovou adresu, seznam přátel a profilový obrázek, jakož i další informace, které se rozhodnete zveřejnit na takové platformě sociálních médií.</p>
+
+<p>Informace, které obdržíme, použijeme pouze pro účely, které jsou popsány v tomto oznámení o ochraně osobních údajů nebo které jsou vám jinak objasněny v příslušných službách. Vezměte prosím na vědomí, že nekontrolujeme a neneseme odpovědnost za jiné použití vašich osobních údajů poskytovatelem sociálních médií třetí strany. Doporučujeme, abyste si přečetli jejich oznámení o ochraně osobních údajů, abyste pochopili, jak shromažďují, používají a sdílejí vaše osobní údaje a jak můžete nastavit předvolby ochrany osobních údajů na jejich webech a v aplikacích.</p>
+
+<h3 id="inforetain">8. JAK DLOUHO UCHOVÁVÁME VAŠE ÚDAJE?</h3>
+
+<p><em><strong>Zkrátka:</strong> Vaše údaje uchováváme tak dlouho, jak je nezbytné pro splnění účelů uvedených v tomto oznámení o ochraně osobních údajů, pokud zákon nevyžaduje jinak.</em></p>
+
+<p>Vaše osobní údaje budeme uchovávat pouze tak dlouho, jak je to nezbytné pro účely uvedené v tomto oznámení o ochraně osobních údajů, pokud zákon nevyžaduje nebo nepovoluje delší dobu uchovávání (například daňové, účetní nebo jiné právní požadavky). Žádný účel v tomto oznámení nebude vyžadovat, abychom uchovávali vaše osobní údaje déle, než je doba, po kterou u nás mají uživatelé účet.</p>
+
+<p>Pokud nemáme žádnou pokračující legitimní obchodní potřebu zpracovávat vaše osobní údaje, tyto informace buď odstraníme nebo anonymizujeme, nebo pokud to není možné (například proto, že vaše osobní údaje byly uloženy v záložních archivech), bezpečně uložíme vaše osobní údaje a izolujeme je od jakéhokoli dalšího zpracování, dokud nebude možné vymazání.</p>
+
+<h3 id="infosafe">9. JAK UCHOVÁVÁME VAŠE INFORMACE V BEZPEČÍ?</h3>
+
+<p><em><strong>Zkrátka:</strong> Naším cílem je chránit vaše osobní údaje prostřednictvím systému organizačních a technických bezpečnostních opatření.</em></p>
+
+<p>Zavedli jsme vhodná a přiměřená technická a organizační bezpečnostní opatření určená k ochraně bezpečnosti veškerých osobních údajů, které zpracováváme. Navzdory našim zárukám a snahám o zabezpečení vašich informací však nelze zaručit 100% bezpečnost žádného elektronického přenosu přes internet nebo technologii ukládání informací, takže nemůžeme slíbit ani zaručit, že hackeři, počítačoví zločinci nebo jiné neoprávněné třetí strany nebudou schopni překonat naši bezpečnost a nesprávně shromažďovat, přistupovat, krást nebo upravovat vaše informace. Přestože uděláme vše pro to, abychom chránili vaše osobní údaje, přenos osobních údajů do a z našich služeb je na vaše vlastní riziko. Ke službám byste měli přistupovat pouze v zabezpečeném prostředí.</p>
+
+<h3 id="privacyrights">10. JAKÁ JSOU VAŠE PRÁVA NA OCHRANU OSOBNÍCH ÚDAJŮ?</h3>
+
+<p><em><strong>Zkrátka:</strong> V některých oblastech, jako je Evropský hospodářský prostor (EHP), Spojené království (Spojené království) a Kanada, máte práva, která vám umožňují větší přístup ke svým osobním údajům a kontrolu nad nimi. Svůj účet můžete kdykoli zkontrolovat, změnit nebo ukončit.</em></p>
+
+<p>V některých oblastech (například EHP, Velká Británie a Kanada) máte určitá práva podle platných zákonů o ochraně osobních údajů. Ty mohou zahrnovat právo (i) požádat o přístup a získat kopii vašich osobních údajů, (ii) požádat o opravu nebo výmaz; (iii) omezit zpracování vašich osobních údajů; a (iv) případně na přenositelnost údajů. Za určitých okolností můžete mít také právo vznést námitky proti zpracování vašich osobních údajů. Takovou žádost můžete podat tak, že nás kontaktujete pomocí kontaktních údajů uvedených v části "<a href="#contact">JAK NÁS MŮŽETE KONTAKTOVAT OHLEDNĚ TOHOTO OZNÁMENÍ?"</a> NÍŽE.</p>
+
+<p>Každou žádost zvážíme a budeme na ni jednat v souladu s platnými zákony o ochraně osobních údajů.
+ 
+Pokud se nacházíte v EHP nebo ve Spojeném království a domníváte se, že vaše osobní údaje zpracováváme nezákonně, máte také právo podat stížnost orgánu pro ochranu údajů v <a href="https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm">členském státě</a> nebo <a href="https://ico.org.uk/make-a-complaint/data-protection-complaints/data-protection-complaints/">orgánu pro ochranu údajů ve Spojeném království</a>.</p>
+
+<p>Pokud se nacházíte ve Švýcarsku, můžete se obrátit na <a href="https://www.edoeb.admin.ch/edoeb/en/home.html">Spolkového komisaře pro ochranu osobních údajů a informací.</a></p>
+
+<p><strong>Odvolání souhlasu:</strong> Pokud se spoléháme na váš souhlas se zpracováním vašich osobních údajů, což může být výslovný a/nebo předpokládaný souhlas v závislosti na platných zákonech, máte právo svůj souhlas kdykoli odvolat. Svůj souhlas můžete kdykoli odvolat tak, že nás kontaktujete pomocí kontaktních údajů uvedených v části "<a href="#contact">JAK NÁS MŮŽETE KONTAKTOVAT OHLEDNĚ TOHOTO OZNÁMENÍ?"</a> NÍŽE.</p>
+
+<p>Upozorňujeme však, že to nebude mít vliv na zákonnost zpracování před jeho odvoláním, ani pokud to platné zákony umožňují, nebude to mít vliv na zpracování vašich osobních údajů prováděné na základě jiných zákonných důvodů zpracování, než je souhlas.</p>
+
+<p><strong>Odhlášení z marketingových a propagačních sdělení:</strong> Odběr našich marketingových a propagačních sdělení můžete kdykoli zrušit kliknutím na odkaz pro odhlášení v e-mailech, které zasíláme, nebo nás můžete kontaktovat pomocí údajů uvedených v části "<a href="#contact">JAK NÁS MŮŽETE KONTAKTOVAT OHLEDNĚ TOHOTO OZNÁMENÍ?"</a> NÍŽE. Poté budete odebráni z marketingových seznamů. Můžeme s vámi však stále komunikovat – například abychom vám zasílali zprávy týkající se služeb, které jsou nezbytné pro správu a používání vašeho účtu, abychom mohli reagovat na žádosti o služby nebo pro jiné než marketingové účely.</p>
+
+<p><strong>Informace o účtu</strong></p>
+
+<p>Pokud byste kdykoli chtěli zkontrolovat nebo změnit informace ve svém účtu nebo svůj účet ukončit, můžete:</p>
+<ul>
+    <li>Přihlaste se do nastavení účtu a aktualizujte svůj uživatelský účet.</li>
+</ul>
+
+<p>Na základě vaší žádosti o ukončení vašeho účtu deaktivujeme nebo odstraníme váš účet a informace z našich aktivních databází. Některé informace však můžeme uchovávat v našich souborech, abychom zabránili podvodům, řešili problémy, pomáhali při vyšetřování, prosazovali naše právní podmínky a/nebo vyhověli platným právním požadavkům.</p>
+
+<p><strong>Soubory cookie a podobné technologie:</strong> Většina webových prohlížečů je ve výchozím nastavení nastavena tak, aby přijímala soubory cookie. Pokud chcete, můžete obvykle nastavit prohlížeč tak, aby soubory cookie odebíral a odmítal. Pokud se rozhodnete soubory cookie odstranit nebo soubory cookie odmítnout, může to mít vliv na určité funkce nebo služby našich služeb. Můžete se také odhlásit z reklamy založené na zájmech inzerentů v našich službách.</p>
+
+<p>Máte-li dotazy nebo připomínky týkající se vašich práv na ochranu osobních údajů, můžete nám poslat e-mail na adresu .</p>
+
+<h3 id="DNT">11. OVLÁDACÍ PRVKY PRO FUNKCE DO-NOT-TRACK</h3>
+
+<p>Většina webových prohlížečů a některé mobilní operační systémy a mobilní aplikace obsahují funkci Do-Not-Track ("DNT") nebo nastavení, které můžete aktivovat, abyste signalizovali své preference ochrany osobních údajů, aby údaje o vašich aktivitách procházení online nebyly sledovány a shromažďovány. V této fázi nebyl dokončen žádný jednotný technologický standard pro rozpoznávání a implementaci signálů DNT. Proto v současné době nereagujeme na signály prohlížeče DNT ani na žádný jiný mechanismus, který automaticky sděluje vaši volbu, abyste nebyli sledováni online. Pokud bude přijat standard pro online sledování, který budeme muset v budoucnu dodržovat, budeme vás o této praxi informovat v revidované verzi tohoto oznámení o ochraně osobních údajů.</p>
+
+<h3 id="caresidents">12. MAJÍ OBYVATELÉ KALIFORNIE ZVLÁŠTNÍ PRÁVA NA OCHRANU SOUKROMÍ?</h3>
+
+<p><em><strong>Zkrátka:</strong> Ano, pokud jste obyvatelem Kalifornie, máte udělena zvláštní práva týkající se přístupu k vašim osobním údajům.</em></p>
+
+<p>Kalifornský občanský zákoník, oddíl 1798.83, známý také jako zákon "Shine The Light", umožňuje našim uživatelům, kteří jsou rezidenty Kalifornie, požadovat a získat od nás jednou ročně a zdarma informace o kategoriích osobních údajů (pokud existují), které jsme poskytli třetím stranám pro účely přímého marketingu, a jména a adresy všech třetích stran, s nimiž jsme sdíleli osobní údaje v bezprostředně předcházejícím kalendářním roce. Pokud jste rezidentem Kalifornie a chtěli byste takovou žádost podat, zašlete nám prosím svou žádost písemně pomocí níže uvedených kontaktních údajů.</p>
+
+<p>Pokud je vám méně než 18 let, bydlíte v Kalifornii a máte registrovaný účet ve Službách, máte právo požádat o odstranění nežádoucích údajů, které veřejně zveřejníte ve Službách. Chcete-li požádat o odstranění těchto údajů, kontaktujte nás pomocí níže uvedených kontaktních údajů a uveďte e-mailovou adresu spojenou s vaším účtem a prohlášení, že máte bydliště v Kalifornii. Zajistíme, aby údaje nebyly veřejně zobrazovány ve Službách, ale mějte na paměti, že údaje nemusí být zcela nebo komplexně odstraněny ze všech našich systémů (např. záloh atd.).</p>
+
+<p><strong>Oznámení o ochraně osobních údajů CCPA</strong></p>
+
+<p>Kalifornský kodex předpisů definuje "rezidenta" jako:</p>
+<ul>
+    <li>(1) každá osoba, která se nachází ve státě Kalifornie z jiného než dočasného nebo přechodného důvodu a</li>
+    <li>(2) každá fyzická osoba, která má bydliště ve státě Kalifornie a která se dočasně nebo přechodně nachází mimo stát Kalifornie</li>
+</ul>
+
+
+<p>Všichni ostatní jedinci jsou definováni jako "nerezidenti".</p>
+
+<p>Pokud se na vás vztahuje tato definice "rezidenta", musíme dodržovat určitá práva a povinnosti týkající se vašich osobních údajů.</p>
+
+<p><strong>Jaké kategorie osobních údajů shromažďujeme?</strong></p>
+
+<p>Za posledních dvanáct (12) měsíců jsme shromáždili následující kategorie osobních údajů:</p>
+
+<p><table style="width: 100%;">
+ <tbody>
+ <tr>
+ <td style="width: 33.8274%; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span data-custom-class="body_text"><strong>Kategorie</strong></span>
+ </span>
+ </span>
+ </td>
+ <td style="width: 51.4385%; border-top: 1px solid black; border-right: 1px solid black;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span data-custom-class="body_text"><strong>Příklady</strong></span>
+ </span>
+ </span>
+ </td>
+ <td style="width: 14.9084%; border-right: 1px solid black; border-top: 1px solid black; text-align: center;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span data-custom-class="body_text"><strong>Sebraný</strong></span>
+ </span>
+ </span>
+ </td>
+ </tr>
+ <tr>
+ <td style="width: 33.8274%; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">A. Identifikátory</span></span>
+ </span>
+ </div>
+ </td>
+ <td style="width: 51.4385%; border-top: 1px solid black; border-right: 1px solid black;">
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span data-custom-class="body_text">Kontaktní údaje, jako je skutečné jméno, alias, poštovní adresa, telefonní nebo mobilní kontaktní číslo, jedinečný osobní identifikátor, online identifikátor, adresa internetového protokolu, e-mailová adresa a název účtu </span>
+ </span>
+ </span>
+ </div>
+ </td>
+ <td style="width: 14.9084%; text-align: center; vertical-align: middle; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;"><br /></div>
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span data-custom-class="body_text">
+ <bdt class="block-component"></bdt>NE <bdt class="statement-end-if-in-editor"></bdt>
+ </span>
+ </span>
+ </span>
+ </div>
+ <div style="line-height: 1.5;"><br /></div>
+ </td>
+ </tr>
+ <tr>
+ <td style="width: 33.8274%; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">B. Kategorie osobních údajů uvedené ve statutu záznamů o zákaznících v Kalifornii</span></span>
+ </span>
+ </div>
+ </td>
+ <td style="width: 51.4385%; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">Jméno, kontaktní údaje, vzdělání, zaměstnání, historie zaměstnání a finanční informace</span></span>
+ </span>
+ </div>
+ </td>
+ <td style="width: 14.9084%; text-align: center; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;"><br /></div>
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span data-custom-class="body_text">
+ <bdt class="block-component"></bdt>NE <bdt class="statement-end-if-in-editor"></bdt>
+ </span>
+ </span>
+ </span>
+ </div>
+ <div style="line-height: 1.5;"><br /></div>
+ </td>
+ </tr>
+ <tr>
+ <td style="width: 33.8274%; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">C. Chráněné klasifikační charakteristiky podle kalifornského nebo federálního práva</span></span>
+ </span>
+ </div>
+ </td>
+ <td style="width: 51.4385%; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">Pohlaví a datum narození</span></span>
+ </span>
+ </div>
+ </td>
+ <td style="width: 14.9084%; text-align: center; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;"><br /></div>
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span data-custom-class="body_text">
+ <bdt class="block-component"></bdt>NE <bdt class="statement-end-if-in-editor"></bdt>
+ </span>
+ </span>
+ </span>
+ </div>
+ <div style="line-height: 1.5;"><br /></div>
+ </td>
+ </tr>
+ <tr>
+ <td style="width: 33.8274%; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">D. Obchodní informace</span></span>
+ </span>
+ </div>
+ </td>
+ <td style="width: 51.4385%; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">Informace o transakcích, historie nákupů, finanční údaje a platební údaje</span></span>
+ </span>
+ </div>
+ </td>
+ <td style="width: 14.9084%; text-align: center; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;"><br /></div>
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span data-custom-class="body_text">
+ <bdt class="block-component"></bdt>NE <bdt class="statement-end-if-in-editor"></bdt>
+ </span>
+ </span>
+ </span>
+ </div>
+ <div style="line-height: 1.5;"><br /></div>
+ </td>
+ </tr>
+ <tr>
+ <td style="width: 33.8274%; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">E. Biometrické informace</span></span>
+ </span>
+ </div>
+ </td>
+ <td style="width: 51.4385%; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">Otisky prstů a hlasové otisky</span></span>
+ </span>
+ </div>
+ </td>
+ <td style="width: 14.9084%; text-align: center; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;"><br /></div>
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span data-custom-class="body_text">
+ <bdt class="block-component"></bdt>NE <bdt class="statement-end-if-in-editor"></bdt>
+ </span>
+ </span>
+ </span>
+ </div>
+ <div style="line-height: 1.5;"><br /></div>
+ </td>
+ </tr>
+ <tr>
+ <td style="width: 33.8274%; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">F. Internetová nebo jiná podobná síťová aktivita</span></span>
+ </span>
+ </div>
+ </td>
+ <td style="width: 51.4385%; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span data-custom-class="body_text">Historie prohlížení, historie vyhledávání, online
+ <bdt class="block-component"></bdt>
+ chování
+ <bdt class="statement-end-if-in-editor"></bdt>
+ , údaje o zájmech a interakce s našimi a jinými webovými stránkami, aplikacemi, systémy a reklamami </span>
+ </span>
+ </span>
+ </div>
+ </td>
+ <td style="width: 14.9084%; text-align: center; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;"><br /></div>
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span data-custom-class="body_text">
+ <bdt class="block-component"></bdt>NE <bdt class="statement-end-if-in-editor"></bdt>
+ </span>
+ </span>
+ </span>
+ </div>
+ <div style="line-height: 1.5;"><br /></div>
+ </td>
+ </tr>
+ <tr>
+ <td style="width: 33.8274%; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">G. Geolokační údaje</span></span>
+ </span>
+ </div>
+ </td>
+ <td style="width: 51.4385%; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">Umístění zařízení</span></span>
+ </span>
+ </div>
+ </td>
+ <td style="width: 14.9084%; text-align: center; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;"><br /></div>
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span data-custom-class="body_text">
+ <bdt class="block-component"></bdt>NE <bdt class="statement-end-if-in-editor"></bdt>
+ </span>
+ </span>
+ </span>
+ </div>
+ <div style="line-height: 1.5;"><br /></div>
+ </td>
+ </tr>
+ <tr>
+ <td style="width: 33.8274%; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">H. Zvukové, elektronické, vizuální, tepelné, čichové nebo podobné informace</span></span>
+ </span>
+ </div>
+ </td>
+ <td style="width: 51.4385%; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">Obrázky a audio, video nebo záznamy hovorů vytvořené v souvislosti s naší obchodní činností</span></span>
+ </span>
+ </div>
+ </td>
+ <td style="width: 14.9084%; text-align: center; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;"><br /></div>
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span data-custom-class="body_text">
+ <bdt class="block-component"></bdt>NE <bdt class="statement-end-if-in-editor"></bdt>
+ </span>
+ </span>
+ </span>
+ </div>
+ <div style="line-height: 1.5;"><br /></div>
+ </td>
+ </tr>
+ <tr>
+ <td style="width: 33.8274%; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">I. Informace o zaměstnání nebo zaměstnání</span></span>
+ </span>
+ </div>
+ </td>
+ <td style="width: 51.4385%; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span data-custom-class="body_text">Obchodní kontaktní údaje, abychom vám mohli poskytovat naše služby na obchodní úrovni nebo pracovní pozici, pracovní historii a odborné kvalifikaci, pokud se u nás ucházíte o zaměstnání </span>
+ </span>
+ </span>
+ </div>
+ </td>
+ <td style="width: 14.9084%; text-align: center; border-right: 1px solid black; border-top: 1px solid black;">
+ <div style="line-height: 1.5;"><br /></div>
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span data-custom-class="body_text">
+ <bdt class="block-component"></bdt>NE <bdt class="statement-end-if-in-editor"></bdt>
+ </span>
+ </span>
+ </span>
+ </div>
+ <div style="line-height: 1.5;"><br /></div>
+ </td>
+ </tr>
+ <tr>
+ <td style="border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black; width: 33.8274%;">
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">J. Informace o vzdělání</span></span>
+ </span>
+ </div>
+ </td>
+ <td style="border-right: 1px solid black; border-top: 1px solid black; width: 51.4385%;">
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">Záznamy o studentech a informace o adresáři</span></span>
+ </span>
+ </div>
+ </td>
+ <td style="text-align: center; border-right: 1px solid black; border-top: 1px solid black; width: 14.9084%;">
+ <div style="line-height: 1.5;"><br /></div>
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span data-custom-class="body_text">
+ <bdt class="block-component"></bdt>NE <bdt class="statement-end-if-in-editor"></bdt>
+ </span>
+ </span>
+ </span>
+ </div>
+ <div style="line-height: 1.5;"><br /></div>
+ </td>
+ </tr>
+ <tr>
+ <td style="border-width: 1px; border-color: black; border-style: solid; width: 33.8274%;">
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">K. Závěry vyvozené z jiných osobních údajů</span></span>
+ </span>
+ </div>
+ </td>
+ <td style="border-bottom: 1px solid black; border-top: 1px solid black; border-right: 1px solid black; width: 51.4385%;">
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span data-custom-class="body_text">Závěry vyvozené z výše uvedených shromážděných osobních údajů za účelem vytvoření profilu nebo shrnutí například o preferencích a charakteristikách jednotlivce </span>
+ </span>
+ </span>
+ </div>
+ </td>
+ <td style="text-align: center; border-right: 1px solid black; border-bottom: 1px solid black; border-top: 1px solid black; width: 14.9084%;">
+ <div style="line-height: 1.5;"><br /></div>
+ <div style="line-height: 1.5;">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span style="font-size: 15px; color: rgb(89, 89, 89);">
+ <span data-custom-class="body_text">
+ <bdt class="block-component"></bdt>NE <bdt class="statement-end-if-in-editor"><span data-custom-class="body_text"></span></bdt>
+ </span>
+ </span>
+ </span>
+ </div>
+ <div style="line-height: 1.5;"><br /></div>
+ </td>
+ </tr>
+ <tr>
+ <td style="border-left: 1px solid black; border-right: 1px solid black; border-bottom: 1px solid black;"><span data-custom-class="body_text">L. Citlivé osobní údaje</span></td>
+ <td style="border-right: 1px solid black; border-bottom: 1px solid black; line-height: 1.5;">
+ <bdt class="block-component"><span data-custom-class="body_text"></span></bdt>
+ <span data-custom-class="body_text">
+ <bdt class="forloop-component"></bdt>
+ <bdt class="block-component"></bdt>
+ <bdt class="question">Přihlašovací údaje k účtu</bdt>
+ <bdt class="else-block"></bdt>
+ <bdt class="forloop-component"></bdt>
+ </span>
+ <bdt class="statement-end-if-in-editor"><span data-custom-class="body_text"></span></bdt>
+ </td>
+ <td data-custom-class="body_text" style="border-right: 1px solid black; border-bottom: 1px solid black; text-align: center; line-height: 1.5;">
+ <br />
+ <bdt class="block-component"><span data-custom-class="body_text"></span></bdt>
+ <span data-custom-class="body_text">ANO <bdt class="else-block"></bdt>
+ </span>
+ <br />
+ <br />
+ </td>
+ </tr>
+ </tbody>
+</table></p>
+
+<p>Shromážděné osobní údaje budeme používat a uchovávat podle potřeby k poskytování služeb nebo pro:</p>
+<ul><li>Kategorie L - Dokud má uživatel u nás účet</li></ul>
+
+<p>Informace kategorie L mohou být použity nebo zpřístupněny poskytovateli služeb nebo zhotoviteli pro další, stanovené účely. Máte právo omezit používání nebo zveřejňování vašich citlivých osobních údajů.</p>
+
+<p>Můžeme také shromažďovat další osobní údaje mimo tyto kategorie prostřednictvím případů, kdy s námi komunikujete osobně, online nebo telefonicky nebo poštou v kontextu:</p>
+<ul>
+    <li>Přijímání pomoci prostřednictvím našich kanálů zákaznické podpory;</li>
+    <li>Účast v zákaznických průzkumech nebo soutěžích; a</li>
+    <li>Usnadnění poskytování našich služeb a odpovídání na vaše dotazy.</li>
+ 
+</ul>
+
+<p><strong>Jak používáme a sdílíme vaše osobní údaje?</strong></p>
+
+<p>Další informace o našich postupech shromažďování a sdílení údajů naleznete v tomto oznámení o ochraně osobních údajů.</p>
+
+<p>Můžete nás kontaktovat nebo odkazem na kontaktní údaje v dolní části tohoto dokumentu.</p>
+
+<p>Pokud k uplatnění svého práva na odhlášení využíváte oprávněného zástupce, můžeme žádost zamítnout, pokud oprávněný zástupce nepředloží důkaz, že byl platně oprávněn jednat vaším jménem.</p>
+
+<p><strong>Budou vaše informace sdíleny s někým jiným?</strong></p>
+
+<p>Vaše osobní údaje můžeme zveřejnit u našich poskytovatelů služeb na základě písemné smlouvy mezi námi a každým poskytovatelem služeb. Každý poskytovatel služeb je ziskový subjekt, který zpracovává informace naším jménem, a to v souladu se stejnými přísnými povinnostmi ochrany soukromí nařízenými CCPA.</p>
+
+<p>Vaše osobní údaje můžeme použít pro naše vlastní obchodní účely, například pro provádění interního výzkumu pro technologický vývoj a demonstrace. To se nepovažuje za "prodej" vašich osobních údajů.</p>
+
+<p>Webu nezveřejnila, neprodala ani nesdílela žádné osobní údaje třetím stranám pro obchodní nebo komerční účely v předchozích dvanácti (12) měsících. Webu nebude v budoucnu prodávat ani sdílet osobní údaje, které patří návštěvníkům webových stránek, uživatelům a dalším spotřebitelům.</p>
+
+<p>Vaše práva týkající se vašich osobních údajů</p>
+
+<p><strong>Právo požadovat výmaz údajů – žádost o výmaz</strong></p>
+
+<p>Můžete požádat o vymazání vašich osobních údajů. Pokud nás požádáte o vymazání vašich osobních údajů, budeme vaši žádost respektovat a vaše osobní údaje vymažeme, s výhradou určitých výjimek stanovených zákonem, jako je (ale nejen) uplatnění práva na svobodu projevu jiným spotřebitelem, naše požadavky na dodržování vyplývající ze zákonné povinnosti nebo jakékoli zpracování, které může být vyžadováno k ochraně před nezákonnými činnostmi.</p>
+
+<p>Právo být informován – žádost o informace</p>
+
+<p>V závislosti na okolnostech máte právo vědět:</p>
+
+<ul>
+    <li>zda shromažďujeme a používáme vaše osobní údaje;</li>
+    <li>kategorie osobních údajů, které shromažďujeme;</li>
+    <li>účely, pro které jsou shromážděné osobní údaje používány;</li>
+    <li>zda prodáváme nebo sdílíme osobní údaje třetím stranám;</li>
+    <li>kategorie osobních údajů, které jsme prodali, sdíleli nebo zveřejnili pro obchodní účely;</li>
+    <li>kategorie třetích stran, kterým byly osobní údaje prodány, sdíleny nebo zveřejněny za obchodním účelem;</li>
+    <li>obchodní nebo komerční účel shromažďování, prodeje nebo sdílení osobních údajů; a</li>
+    <li>konkrétní osobní údaje, které jsme o vás shromáždili.</li>
+</ul>
+
+<p>V souladu s platnými právními předpisy nejsme povinni poskytovat nebo mazat informace o spotřebitelích, které jsou deidentifikovány v reakci na žádost spotřebitele, nebo znovu identifikovat jednotlivé údaje za účelem ověření žádosti spotřebitele.</p>
+
+<p>Právo na nediskriminaci při výkonu práv spotřebitele na soukromí</p>
+
+<p>Nebudeme vás diskriminovat, pokud uplatníte svá práva na soukromí.</p>
+
+<p>Právo na omezení používání a zveřejňování citlivých osobních údajů</p>
+
+<p>Pokud firma shromažďuje některé z následujících údajů:</p>
+<ul>
+    <li>informace o sociálním zabezpečení, řidičské průkazy, státní průkazy totožnosti, čísla pasů</li>
+    <li>Přihlašovací údaje k účtu</li>
+    <li>čísla kreditních karet, informace o finančních účtech nebo přihlašovací údaje umožňující přístup k těmto účtům</li>
+    <li>Přesná geolokace</li>
+    <li>rasový nebo etnický původ, náboženské nebo filozofické přesvědčení, členství v odborech</li>
+    <li>obsah e-mailu a textu, pokud podnik není zamýšleným příjemcem komunikace</li>
+    <li>genetické údaje, biometrické údaje a zdravotní údaje</li>
+    <li>údaje o sexuální orientaci a sexuálním životě</li>
+</ul>
+
+<p>máte právo nařídit této firmě, aby omezila používání vašich citlivých osobních údajů na takové použití, které je nezbytné k poskytování služeb.<p>Jakmile firma vaši žádost obdrží, nesmí již vaše citlivé osobní údaje používat ani zveřejňovat k žádnému jinému účelu, pokud neposkytnete souhlas s použitím nebo zveřejněním citlivých osobních údajů pro další účely.</p>
+
+<p>Vezměte prosím na vědomí, že citlivé osobní údaje, které jsou shromažďovány nebo zpracovávány bez účelu vyvozování charakteristik o spotřebiteli, se toto právo nevztahuje, stejně jako veřejně dostupné informace.</p>
+
+<p>Chcete-li uplatnit své právo na omezení používání a zveřejnění citlivých osobních údajů, zašlete e-mail na stránku  nebo navštivte: .</p>
+
+<p><u>Proces ověřování</u></p>
+
+<p>Po obdržení vaší žádosti budeme muset ověřit vaši totožnost, abychom zjistili, že jste stejná osoba, o které máme informace v našem systému. Toto ověření vyžaduje, abychom vás požádali o poskytnutí informací, abychom je mohli porovnat s informacemi, které jste nám dříve poskytli. Například v závislosti na typu žádosti, kterou odešlete, vás můžeme požádat o poskytnutí určitých informací, abychom mohli porovnat informace, které poskytnete, s informacemi, které již máme v záznamech, nebo vás můžeme kontaktovat prostřednictvím způsobu komunikace (např. telefonicky nebo e-mailem), který jste nám dříve poskytli. Můžeme také použít jiné metody ověření, pokud to vyžadují okolnosti.</p>
+
+<p>Osobní údaje poskytnuté ve vaší žádosti použijeme pouze k ověření vaší totožnosti nebo oprávnění k podání žádosti. Pokud je to možné, vyhneme se tomu, abychom od vás požadovali další informace pro účely ověření. Pokud však nemůžeme ověřit vaši totožnost z informací, které již uchováváme, můžeme vás požádat o poskytnutí dalších informací pro účely ověření vaší totožnosti a pro účely zabezpečení nebo prevence podvodů. Tyto dodatečně poskytnuté informace vymažeme, jakmile dokončíme vaše ověřování.</p>
+
+<p><u>Další práva na ochranu osobních údajů</u></p>
+<ul>
+    <li>Můžete vznést námitku proti zpracování vašich osobních údajů.</li>
+    <li>Můžete požádat o opravu svých osobních údajů, pokud jsou nesprávné nebo již nejsou relevantní, nebo požádat o omezení zpracování informací.</li>
+    <li>Můžete určit oprávněného zástupce, který vaším jménem podá žádost podle zákona CCPA. Můžeme zamítnout žádost autorizovaného zástupce, který nepředloží důkaz, že byl platně oprávněn jednat vaším jménem v souladu s CCPA.</li>
+    <li>Můžete požádat o odhlášení z budoucího prodeje nebo sdílení vašich osobních údajů třetím stranám. Po obdržení žádosti o odhlášení budeme na základě žádosti jednat co nejdříve, nejpozději však do patnácti (15) dnů od data podání žádosti.</li>
+</ul>
+
+<p>Chcete-li tato práva uplatnit, můžete nás kontaktovat nebo se obrátit na kontaktní údaje v dolní části tohoto dokumentu. Máte-li stížnost na to, jak nakládáme s vašimi údaji, rádi bychom se o tom dozvěděli.</p>
+
+<h3 id="virginia">13. MAJÍ OBYVATELÉ VIRGINIE ZVLÁŠTNÍ PRÁVA NA OCHRANU SOUKROMÍ?</h3>
+
+<p><em><strong>Zkrátka:</strong> Ano, pokud jste obyvatelem Virginie, mohou vám být udělena zvláštní práva týkající se přístupu k vašim osobním údajům a jejich používání.</em></p>
+
+<p>Virginia CDPA Oznámení o ochraně osobních údajů</p>
+
+<p>Podle zákona o ochraně údajů spotřebitelů ve Virginii (CDPA):</p>
+
+<p>"Spotřebitel" znamená fyzickou osobu, která je rezidentem Commonwealthu a jedná pouze v kontextu jednotlivce nebo domácnosti. Nezahrnuje fyzickou osobu působící v obchodním nebo pracovním kontextu.</p>
+
+<p>"Osobními údaji" se rozumí jakékoli informace, které jsou spojeny nebo rozumně propojitelné s identifikovanou nebo identifikovatelnou fyzickou osobou. "Osobní údaje" nezahrnují údaje zbavené identifikačních znaků ani veřejně dostupné informace.</p>
+
+<p>"Prodej osobních údajů" znamená výměnu osobních údajů za peněžní protiplnění.</p>
+
+<p>Pokud se na vás vztahuje tato definice "spotřebitele", musíme dodržovat určitá práva a povinnosti týkající se vašich osobních údajů.</p>
+
+<p>Informace, které o vás shromažďujeme, používáme a zveřejňujeme, se budou lišit v závislosti na tom, jak interagujete s Webu našimi službami. Chcete-li se dozvědět více, navštivte následující odkazy:<ul>
+    <li><a href="#infocollect">Osobní údaje, které shromažďujeme</a></li>
+    <li><a href="#infouse">Jak používáme vaše osobní údaje</a></li>
+    <li><a href="#whoshare">Kdy a s kým sdílíme vaše osobní údaje</a></li>
+</ul>
+
+<p>Vaše práva týkající se vašich osobních údajů</p>
+
+<ul>
+    <li>Právo být informován o tom, zda zpracováváme vaše osobní údaje</li>
+    <li>Právo na přístup k vašim osobním údajům</li>
+    <li>Právo na opravu nepřesností ve vašich osobních údajích</li>
+    <li>Právo požadovat výmaz vašich osobních údajů</li>
+    <li>Právo získat kopii osobních údajů, které jste s námi dříve sdíleli</li>
+    <li>Právo odmítnout zpracování vašich osobních údajů, pokud jsou používány pro cílenou reklamu, prodej osobních údajů nebo profilování na podporu rozhodnutí, která mají právní nebo podobně významné účinky ("profilování")</li>
+</ul>
+
+<p>Webu neprodala žádné osobní údaje třetím stranám pro obchodní nebo komerční účely. Webu nebude v budoucnu prodávat osobní údaje, které patří návštěvníkům webových stránek, uživatelům a dalším spotřebitelům.</p>
+
+<p><u>Uplatnění vašich práv stanovených v rámci Virginia CDPA</u></p>
+
+<p>Další informace o našich postupech shromažďování a sdílení údajů naleznete v tomto oznámení o ochraně osobních údajů.</p>
+
+<p>Můžete nás kontaktovat e-mailem na adrese  , návštěvou  nebo odkazem na kontaktní údaje v dolní části tohoto dokumentu.</p>
+
+<p>Pokud k uplatnění svých práv využíváte oprávněného zástupce, můžeme žádost zamítnout, pokud oprávněný zástupce nepředloží důkaz, že byl platně oprávněn jednat vaším jménem.</p>
+
+<p><u>Proces ověřování</u></p>
+
+<p>Můžeme vás požádat o poskytnutí dalších informací, které jsou přiměřeně nezbytné k ověření vás a žádosti vašeho spotřebitele. Pokud odešlete žádost prostřednictvím autorizovaného zástupce, možná budeme muset před zpracováním žádosti shromáždit další informace, abychom ověřili vaši totožnost.</p>
+
+<p>Po obdržení vaší žádosti odpovíme bez zbytečného odkladu, ale ve všech případech do čtyřiceti pěti (45) dnů od obdržení. Lhůta na odpověď může být jednou prodloužena o dalších čtyřicet (45) dnů, je-li to přiměřeně nezbytné. O každém takovém prodloužení vás budeme informovat během počáteční 45denní lhůty na odpověď spolu s důvodem prodloužení.</p>
+
+<p><u>Právo na odvolání</u></p>
+
+<p>Pokud odmítneme podniknout kroky týkající se vaší žádosti, budeme vás informovat o našem rozhodnutí a důvodech, které nás k němu vedly. Pokud se chcete odvolat proti našemu rozhodnutí, pošlete nám prosím e-mail na adresu . Do šedesáti (60) dnů od obdržení odvolání vás budeme písemně informovat o veškerých nebo neprovedených opatřeních v reakci na odvolání, včetně písemného vysvětlení důvodů rozhodnutí.</p>
+
+<h3 id="policyupdates">14. AKTUALIZUJEME TOTO OZNÁMENÍ?</h3>
+
+<p><em><strong>Zkrátka:</strong> Ano, toto oznámení budeme podle potřeby aktualizovat, abychom zůstali v souladu s příslušnými zákony.</em></p>
+
+<p>Toto oznámení o ochraně osobních údajů můžeme čas od času aktualizovat. Aktualizovaná verze bude označena aktualizovaným datem "Revidováno" a aktualizovaná verze bude účinná, jakmile bude dostupná. Pokud provedeme podstatné změny tohoto oznámení o ochraně osobních údajů, můžeme vás upozornit buď viditelným zveřejněním oznámení o těchto změnách, nebo přímým zasláním oznámení. Doporučujeme vám, abyste toto oznámení o ochraně osobních údajů často kontrolovali, abyste byli informováni o tom, jak chráníme vaše informace.</p>
+
+<h3 id="contact">15. JAK NÁS MŮŽETE KONTAKTOVAT OHLEDNĚ TOHOTO OZNÁMENÍ?</h3>
+
+<p>Máte-li dotazy nebo připomínky k tomuto oznámení, můžete nám poslat e-mail na adresu  nebo nás kontaktovat poštou na adrese:</p>
+
+<ul>
+    <li> </li>
+    <li></li>
+    <li></li>
+</ul>
+
+<h3 id="request">16. JAK MŮŽETE ZKONTROLOVAT, AKTUALIZOVAT NEBO ODSTRANIT ÚDAJE, KTERÉ OD VÁS SHROMAŽĎUJEME?</h3>
+
+<p>Na základě platných zákonů vaší země můžete mít právo požádat o přístup k osobním údajům, které od vás shromažďujeme, změnit tyto informace nebo je odstranit. Chcete-li požádat o kontrolu, aktualizaci nebo vymazání vašich osobních údajů, navštivte: .</p>
+
+</div>
+    </div>
+</div>
+
+
+
+    <script>
+      function toggleNav() {
+        var overlay = document.getElementById("overlay");
+        if (overlay.style.display === "block") {
+          closeNav();
+        } else {
+          openNav();
+        }
+      }
+
+      function openNav() {
+        document.getElementById("overlay").style.display = "block";
+      }
+      function closeNav() {
+        document.getElementById("overlay").style.display = "none";
+      }
+    </script>
+    <div class="footer">
+      <div class="container">
+        <div class="footer-box">
+          <div class="footer-link">
+            <a href="agreement.html"> Zásady ochrany osobních údajů</a>
+          </div>
+          <div class="footer-link">
+            <a href="terms-of-service.html"> Termíny a podmínky</a>
+          </div>
+          <div class="footer-link">
+            <a href="disclaimer.html"> Zřeknutí</a>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright</p>
+          <p>&#169;</p>
+          <p>2024</p>
+          <p>Morslayzin</p>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+
+     
+
+</body>
+</html>
